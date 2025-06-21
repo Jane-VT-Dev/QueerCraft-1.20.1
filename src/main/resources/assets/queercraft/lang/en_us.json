@@ -1,5 +1,7 @@
 {
   "itemgroup.queercraft.ores": "QueerCraft Ores",
+  "itemgroup.queercraft.tools": "QueerCraft Tools",
+
 
   "item.queercraft.ingot_1": "Ingot 1",
   "item.queercraft.ingot_2": "Ingot 2",
@@ -34,6 +36,23 @@
   "item.queercraft.raw_ingot_14": "Raw Ore 14",
   "item.queercraft.raw_ingot_15": "Raw Ore 15",
   "item.queercraft.raw_ingot_16": "Raw Ore 16",
+
+  "item.queercraft.pickaxe_ingot_1": "Pickaxe Ingot 1",
+  "item.queercraft.pickaxe_ingot_2": "Pickaxe Ingot 2",
+  "item.queercraft.pickaxe_ingot_3": "Pickaxe Ingot 3",
+  "item.queercraft.pickaxe_ingot_4": "Pickaxe Ingot 4",
+  "item.queercraft.pickaxe_ingot_5": "Pickaxe Ingot 5",
+  "item.queercraft.pickaxe_ingot_6": "Pickaxe Ingot 6",
+  "item.queercraft.pickaxe_ingot_7": "Pickaxe Ingot 7",
+  "item.queercraft.pickaxe_ingot_8": "Pickaxe Ingot 8",
+  "item.queercraft.pickaxe_ingot_9": "Pickaxe Ingot 9",
+  "item.queercraft.pickaxe_ingot_10": "Pickaxe Ingot 10",
+  "item.queercraft.pickaxe_ingot_11": "Pickaxe Ingot 11",
+  "item.queercraft.pickaxe_ingot_12": "Pickaxe Ingot 12",
+  "item.queercraft.pickaxe_ingot_13": "Pickaxe Ingot 13",
+  "item.queercraft.pickaxe_ingot_14": "Pickaxe Ingot 14",
+  "item.queercraft.pickaxe_ingot_15": "Pickaxe Ingot 15",
+  "item.queercraft.pickaxe_ingot_16": "Pickaxe Ingot 16",
 
   "block.queercraft.ore_block_1": "Ore Block 1",
   "block.queercraft.ore_block_2": "Ore Block 2",

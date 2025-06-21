@@ -71,5 +71,21 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_INGOT_15, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_INGOT_16, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_1, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_2, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_3, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_4, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_5, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_6, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_7, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_8, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_9, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_10, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_11, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_12, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_13, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_14, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_15, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PICKAXE_INGOT_16, Models.GENERATED);
     }
 }
