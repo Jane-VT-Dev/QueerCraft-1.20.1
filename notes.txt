@@ -1,0 +1,17 @@
+- only Raw ore ==> one Ore Block (one for Stone and one for Deepslate)
+- 26 total different ingots
+
+
+Brown Armor (straight Equipment)
+advancment for full gay armnor equipped "Boy Kisser"
+One Base Ingot (Brown Ingot) that gets dyed
+
+- 10 Tool Sets
+    - 9 have exact same stats
+    - 1 slihghtly stronger
+
+
+- 10 Armor Sets
+    - 9 exact same stats
+    - 1 slightly Stronger
+

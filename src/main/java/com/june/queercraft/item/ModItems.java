@@ -45,7 +45,7 @@ public class ModItems {
     public static final Item RAW_INGOT_16 = registerItem("raw_ingot_16",new Item(new FabricItemSettings()));
 
     public static final Item PICKAXE_INGOT_1 = registerItem("pickaxe_ingot_1",
-            new PickaxeItem(ModToolMaterial.INGOT_1, 2, -2.8f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.INGOT_1, 2, -3f, new FabricItemSettings()));
 
     public static final Item PICKAXE_INGOT_2 = registerItem("pickaxe_ingot_2",
             new PickaxeItem(ModToolMaterial.INGOT_2, 2, -2.8f, new FabricItemSettings()));

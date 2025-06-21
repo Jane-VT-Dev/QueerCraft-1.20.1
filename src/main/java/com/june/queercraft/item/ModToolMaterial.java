@@ -7,7 +7,7 @@ import java.util.function.Supplier;
 
     public enum ModToolMaterial implements ToolMaterial {
 
-        INGOT_1(5, 650, 4.5f, 3.5f, 26,
+        INGOT_1(0, 650, 4.5f, 3.5f, 26,
                 () -> Ingredient.ofItems(ModItems.INGOT_1)),
 
         INGOT_2(5, 650, 4.5f, 3.5f, 26,
