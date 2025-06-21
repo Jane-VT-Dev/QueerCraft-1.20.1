@@ -1,5 +1,7 @@
 package com.june.queercraft;
 
+import com.june.queercraft.block.ModBlocks;
+import com.june.queercraft.item.ModItemGroups;
 import com.june.queercraft.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +15,7 @@ public class QueerCraft implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }

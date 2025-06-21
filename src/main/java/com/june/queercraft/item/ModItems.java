@@ -11,29 +11,39 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
 
+    public static final Item INGOT_1 = registerItem("ingot_1",new Item(new Item.Settings()));
+    public static final Item INGOT_2 = registerItem("ingot_2",new Item(new Item.Settings()));
+    public static final Item INGOT_3 = registerItem("ingot_3",new Item(new Item.Settings()));
+    public static final Item INGOT_4 = registerItem("ingot_4",new Item(new Item.Settings()));
+    public static final Item INGOT_5 = registerItem("ingot_5",new Item(new Item.Settings()));
+    public static final Item INGOT_6 = registerItem("ingot_6",new Item(new Item.Settings()));
+    public static final Item INGOT_7 = registerItem("ingot_7",new Item(new Item.Settings()));
+    public static final Item INGOT_8 = registerItem("ingot_8",new Item(new Item.Settings()));
+    public static final Item INGOT_9 = registerItem("ingot_9",new Item(new Item.Settings()));
+    public static final Item INGOT_10 = registerItem("ingot_10",new Item(new Item.Settings()));
+    public static final Item INGOT_11 = registerItem("ingot_11",new Item(new Item.Settings()));
+    public static final Item INGOT_12 = registerItem("ingot_12",new Item(new Item.Settings()));
+    public static final Item INGOT_13 = registerItem("ingot_13",new Item(new Item.Settings()));
+    public static final Item INGOT_14 = registerItem("ingot_14",new Item(new Item.Settings()));
+    public static final Item INGOT_15 = registerItem("ingot_15",new Item(new Item.Settings()));
+    public static final Item INGOT_16 = registerItem("ingot_16",new Item(new Item.Settings()));
 
-    public static final Item TEST_ITEM_1 = registerItem("test_item_1",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_2 = registerItem("test_item_2",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_3 = registerItem("test_item_3",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_4 = registerItem("test_item_4",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_5 = registerItem("test_item_5",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_6 = registerItem("test_item_6",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_7 = registerItem("test_item_7",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_8 = registerItem("test_item_8",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_9 = registerItem("test_item_9",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_10 = registerItem("test_item_10",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_11 = registerItem("test_item_11",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_12 = registerItem("test_item_12",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_13 = registerItem("test_item_13",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_14 = registerItem("test_item_14",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_15 = registerItem("test_item_15",new Item(new Item.Settings()));
-    public static final Item TEST_ITEM_16 = registerItem("test_item_16",new Item(new Item.Settings()));
-
-
-
-
-
-
+    public static final Item RAW_INGOT_1 = registerItem("raw_ingot_1",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_2 = registerItem("raw_ingot_2",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_3 = registerItem("raw_ingot_3",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_4 = registerItem("raw_ingot_4",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_5 = registerItem("raw_ingot_5",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_6 = registerItem("raw_ingot_6",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_7 = registerItem("raw_ingot_7",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_8 = registerItem("raw_ingot_8",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_9 = registerItem("raw_ingot_9",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_10 = registerItem("raw_ingot_10",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_11 = registerItem("raw_ingot_11",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_12 = registerItem("raw_ingot_12",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_13 = registerItem("raw_ingot_13",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_14 = registerItem("raw_ingot_14",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_15 = registerItem("raw_ingot_15",new Item(new Item.Settings()));
+    public static final Item RAW_INGOT_16 = registerItem("raw_ingot_16",new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item){
@@ -42,25 +52,5 @@ public class ModItems {
 
     public static void registerModItems(){
         QueerCraft.LOGGER.info("Registering mod items for " + QueerCraft.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-
-            fabricItemGroupEntries.add(TEST_ITEM_1);
-            fabricItemGroupEntries.add(TEST_ITEM_2);
-            fabricItemGroupEntries.add(TEST_ITEM_3);
-            fabricItemGroupEntries.add(TEST_ITEM_4);
-            fabricItemGroupEntries.add(TEST_ITEM_5);
-            fabricItemGroupEntries.add(TEST_ITEM_6);
-            fabricItemGroupEntries.add(TEST_ITEM_7);
-            fabricItemGroupEntries.add(TEST_ITEM_8);
-            fabricItemGroupEntries.add(TEST_ITEM_9);
-            fabricItemGroupEntries.add(TEST_ITEM_10);
-            fabricItemGroupEntries.add(TEST_ITEM_11);
-            fabricItemGroupEntries.add(TEST_ITEM_12);
-            fabricItemGroupEntries.add(TEST_ITEM_13);
-            fabricItemGroupEntries.add(TEST_ITEM_14);
-            fabricItemGroupEntries.add(TEST_ITEM_15);
-            fabricItemGroupEntries.add(TEST_ITEM_16);
-
-        });
     }
 }
