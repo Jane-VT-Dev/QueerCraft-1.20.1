@@ -5,11 +5,13 @@
 	"name": "Queer-Craft",
 	"description": "Be Gay do Crime!",
 	"authors": [
-		"June-VT-Dev"
+		"June-VT-Dev",
+		"HeatFromSapphire - Textures,Concepts",
+		"Athena - Textures"
 	],
 	"contact": {
 		"homepage": "https://www.twitch.tv/JuneVtuber",
-		"sources": "X"
+		"sources": "https://github.com/Jane-VT-Dev/QueerCraft-1.20.1"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/queercraft/icon.png",
