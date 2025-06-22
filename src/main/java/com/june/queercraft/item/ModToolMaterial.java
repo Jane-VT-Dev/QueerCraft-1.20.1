@@ -8,52 +8,52 @@ import java.util.function.Supplier;
     public enum ModToolMaterial implements ToolMaterial {
 
         INGOT_1(0, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_1)),
+                () -> Ingredient.ofItems(ModItems.AROACE_INGOT)),
 
         INGOT_2(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_2)),
+                () -> Ingredient.ofItems(ModItems.BASE_INGOT)),
 
         INGOT_3(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_3)),
+                () -> Ingredient.ofItems(ModItems.BI_INGOT)),
 
         INGOT_4(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_4)),
+                () -> Ingredient.ofItems(ModItems.BLACK_INGOT)),
 
         INGOT_5(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_5)),
+                () -> Ingredient.ofItems(ModItems.BLUE_INGOT)),
 
         INGOT_6(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_6)),
+                () -> Ingredient.ofItems(ModItems.CYAN_INGOT)),
 
         INGOT_7(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_7)),
+                () -> Ingredient.ofItems(ModItems.DEMIGENDER_INGOT)),
 
         INGOT_8(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_8)),
+                () -> Ingredient.ofItems(ModItems.GENDERFLUID_INGOT)),
 
         INGOT_9(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_9)),
+                () -> Ingredient.ofItems(ModItems.GREEN_INGOT)),
 
         INGOT_10(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_10)),
+                () -> Ingredient.ofItems(ModItems.GREY_INGOT)),
 
         INGOT_11(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_11)),
+                () -> Ingredient.ofItems(ModItems.LESBIAN_INGOT)),
 
         INGOT_12(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_12)),
+                () -> Ingredient.ofItems(ModItems.LIGHT_BLUE_INGOT)),
 
         INGOT_13(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_13)),
+                () -> Ingredient.ofItems(ModItems.LIGHT_GREY_INGOT)),
 
         INGOT_14(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_14)),
+                () -> Ingredient.ofItems(ModItems.LIME_INGOT)),
 
         INGOT_15(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_15)),
+                () -> Ingredient.ofItems(ModItems.MAGENTA_INGOT)),
 
         INGOT_16(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.INGOT_16));
+                () -> Ingredient.ofItems(ModItems.NONBINARY_INGOT));
 
         private final int miningLevel;
         private final int itemDurability;

@@ -10,39 +10,36 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
 
-    public static final Item INGOT_1 = registerItem("ingot_1",new Item(new FabricItemSettings()));
-    public static final Item INGOT_2 = registerItem("ingot_2",new Item(new FabricItemSettings()));
-    public static final Item INGOT_3 = registerItem("ingot_3",new Item(new FabricItemSettings()));
-    public static final Item INGOT_4 = registerItem("ingot_4",new Item(new FabricItemSettings()));
-    public static final Item INGOT_5 = registerItem("ingot_5",new Item(new FabricItemSettings()));
-    public static final Item INGOT_6 = registerItem("ingot_6",new Item(new FabricItemSettings()));
-    public static final Item INGOT_7 = registerItem("ingot_7",new Item(new FabricItemSettings()));
-    public static final Item INGOT_8 = registerItem("ingot_8",new Item(new FabricItemSettings()));
-    public static final Item INGOT_9 = registerItem("ingot_9",new Item(new FabricItemSettings()));
-    public static final Item INGOT_10 = registerItem("ingot_10",new Item(new FabricItemSettings()));
-    public static final Item INGOT_11 = registerItem("ingot_11",new Item(new FabricItemSettings()));
-    public static final Item INGOT_12 = registerItem("ingot_12",new Item(new FabricItemSettings()));
-    public static final Item INGOT_13 = registerItem("ingot_13",new Item(new FabricItemSettings()));
-    public static final Item INGOT_14 = registerItem("ingot_14",new Item(new FabricItemSettings()));
-    public static final Item INGOT_15 = registerItem("ingot_15",new Item(new FabricItemSettings()));
-    public static final Item INGOT_16 = registerItem("ingot_16",new Item(new FabricItemSettings()));
+    public static final Item AROACE_INGOT = registerItem("aroace_ingot",new Item(new FabricItemSettings()));
+    public static final Item BASE_INGOT = registerItem("base_ingot",new Item(new FabricItemSettings()));
+    public static final Item BI_INGOT = registerItem("bi_ingot",new Item(new FabricItemSettings()));
+    public static final Item BLACK_INGOT = registerItem("black_ingot",new Item(new FabricItemSettings()));
+    public static final Item BLUE_INGOT = registerItem("blue_ingot",new Item(new FabricItemSettings()));
+    public static final Item CYAN_INGOT = registerItem("cyan_ingot",new Item(new FabricItemSettings()));
+    public static final Item DEMIGENDER_INGOT = registerItem("demigender_ingot",new Item(new FabricItemSettings()));
+    public static final Item GENDERFLUID_INGOT = registerItem("genderfluid_ingot",new Item(new FabricItemSettings()));
+    public static final Item GREEN_INGOT = registerItem("green_ingot",new Item(new FabricItemSettings()));
+    public static final Item GREY_INGOT = registerItem("grey_ingot",new Item(new FabricItemSettings()));
+    public static final Item LESBIAN_INGOT = registerItem("lesbian_ingot",new Item(new FabricItemSettings()));
+    public static final Item LIGHT_BLUE_INGOT = registerItem("light_blue_ingot",new Item(new FabricItemSettings()));
+    public static final Item LIGHT_GREY_INGOT = registerItem("light_grey_ingot",new Item(new FabricItemSettings()));
+    public static final Item LIME_INGOT = registerItem("lime_ingot",new Item(new FabricItemSettings()));
+    public static final Item MAGENTA_INGOT = registerItem("magenta_ingot",new Item(new FabricItemSettings()));
+    public static final Item MLM_INGOT = registerItem("mlm_ingot",new Item(new FabricItemSettings()));
+    public static final Item NONBINARY_INGOT = registerItem("nonbinary_ingot",new Item(new FabricItemSettings()));
+    public static final Item ORANGE_INGOT = registerItem("orange_ingot",new Item(new FabricItemSettings()));
+    public static final Item PAN_INGOT = registerItem("pan_ingot",new Item(new FabricItemSettings()));
+    public static final Item PINK_INGOT = registerItem("pink_ingot",new Item(new FabricItemSettings()));
+    public static final Item PURPLE_INGOT = registerItem("purple_ingot",new Item(new FabricItemSettings()));
+    public static final Item QUEER_INGOT = registerItem("queer_ingot",new Item(new FabricItemSettings()));
+    public static final Item RED_INGOT = registerItem("red_ingot",new Item(new FabricItemSettings()));
+    public static final Item TRANS_INGOT = registerItem("trans_ingot",new Item(new FabricItemSettings()));
+    public static final Item WHITE_INGOT = registerItem("white_ingot",new Item(new FabricItemSettings()));
+    public static final Item YELLOW_INGOT = registerItem("yellow_ingot",new Item(new FabricItemSettings()));
+
 
     public static final Item RAW_INGOT_1 = registerItem("raw_ingot_1",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_2 = registerItem("raw_ingot_2",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_3 = registerItem("raw_ingot_3",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_4 = registerItem("raw_ingot_4",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_5 = registerItem("raw_ingot_5",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_6 = registerItem("raw_ingot_6",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_7 = registerItem("raw_ingot_7",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_8 = registerItem("raw_ingot_8",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_9 = registerItem("raw_ingot_9",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_10 = registerItem("raw_ingot_10",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_11 = registerItem("raw_ingot_11",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_12 = registerItem("raw_ingot_12",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_13 = registerItem("raw_ingot_13",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_14 = registerItem("raw_ingot_14",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_15 = registerItem("raw_ingot_15",new Item(new FabricItemSettings()));
-    public static final Item RAW_INGOT_16 = registerItem("raw_ingot_16",new Item(new FabricItemSettings()));
+
 
     public static final Item PICKAXE_INGOT_1 = registerItem("pickaxe_ingot_1",
             new PickaxeItem(ModToolMaterial.INGOT_1, 2, -3f, new FabricItemSettings()));

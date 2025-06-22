@@ -15,53 +15,12 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
-    public static final Block ORE_BLOCK_1 = registerBlock("ore_block_1",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
+    public static final Block BROWN_STONE_ORE = registerBlock("brown_stone_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.COAL_ORE).strength(3.0F)));
 
-    public static final Block ORE_BLOCK_2 = registerBlock("ore_block_2",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
+    public static final Block BROWN_DEEPSLATE_ORE = registerBlock("brown_deepslate_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE).strength(3.0F)));
 
-    public static final Block ORE_BLOCK_3 = registerBlock("ore_block_3",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_4 = registerBlock("ore_block_4",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_5 = registerBlock("ore_block_5",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_6 = registerBlock("ore_block_6",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_7 = registerBlock("ore_block_7",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_8 = registerBlock("ore_block_8",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_9 = registerBlock("ore_block_9",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_10 = registerBlock("ore_block_10",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_11 = registerBlock("ore_block_11",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_12 = registerBlock("ore_block_12",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_13 = registerBlock("ore_block_13",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_14 = registerBlock("ore_block_14",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_15 = registerBlock("ore_block_15",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
-
-    public static final Block ORE_BLOCK_16 = registerBlock("ore_block_16",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0F)));
 
 
     private static Block registerBlock(String name, Block block) {
