@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "queercraft:grey_ingot"
+    },
+    "D": {
+      "item": "queercraft:light_grey_ingot"
+    },
+    "P": {
+      "item": "queercraft:white_ingot"
+    },
+    "Q": {
+      "item": "queercraft:yellow_ingot"
+    }
+  },
+  "pattern": [
+    " D ",
+    "QPQ",
+    " A "
+  ],
+  "result": {
+    "item": "queercraft:demigender_ingot"
+  },
+  "show_notification": true
+}

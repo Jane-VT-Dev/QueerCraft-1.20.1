@@ -7,53 +7,36 @@ import java.util.function.Supplier;
 
     public enum ModToolMaterial implements ToolMaterial {
 
-        INGOT_1(0, 650, 4.5f, 3.5f, 26,
+        AROACE(0, 650, 4.5f, 3.5f, 26,
                 () -> Ingredient.ofItems(ModItems.AROACE_INGOT)),
 
-        INGOT_2(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.BASE_INGOT)),
-
-        INGOT_3(5, 650, 4.5f, 3.5f, 26,
+        BI(5, 650, 4.5f, 3.5f, 26,
                 () -> Ingredient.ofItems(ModItems.BI_INGOT)),
 
-        INGOT_4(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.BLACK_INGOT)),
-
-        INGOT_5(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.BLUE_INGOT)),
-
-        INGOT_6(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.CYAN_INGOT)),
-
-        INGOT_7(5, 650, 4.5f, 3.5f, 26,
+        DEMIGENDER(5, 650, 4.5f, 3.5f, 26,
                 () -> Ingredient.ofItems(ModItems.DEMIGENDER_INGOT)),
 
-        INGOT_8(5, 650, 4.5f, 3.5f, 26,
+        GENDERFLUID(5, 650, 4.5f, 3.5f, 26,
                 () -> Ingredient.ofItems(ModItems.GENDERFLUID_INGOT)),
 
-        INGOT_9(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.GREEN_INGOT)),
-
-        INGOT_10(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.GREY_INGOT)),
-
-        INGOT_11(5, 650, 4.5f, 3.5f, 26,
+        LESBIAN(5, 650, 4.5f, 3.5f, 26,
                 () -> Ingredient.ofItems(ModItems.LESBIAN_INGOT)),
 
-        INGOT_12(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.LIGHT_BLUE_INGOT)),
+        MLM(5, 650, 4.5f, 3.5f, 26,
+                () -> Ingredient.ofItems(ModItems.MLM_INGOT)),
 
-        INGOT_13(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.LIGHT_GREY_INGOT)),
+        NONBINARY(5, 650, 4.5f, 3.5f, 26,
+                () -> Ingredient.ofItems(ModItems.NONBINARY_INGOT)),
 
-        INGOT_14(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.LIME_INGOT)),
+        PAN(5, 650, 4.5f, 3.5f, 26,
+                () -> Ingredient.ofItems(ModItems.PAN_INGOT)),
 
-        INGOT_15(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.MAGENTA_INGOT)),
+        QUEER(5, 650, 4.5f, 3.5f, 26,
+                () -> Ingredient.ofItems(ModItems.QUEER_INGOT)),
 
-        INGOT_16(5, 650, 4.5f, 3.5f, 26,
-                () -> Ingredient.ofItems(ModItems.NONBINARY_INGOT));
+        TRANS(5, 650, 4.5f, 3.5f, 26,
+                () -> Ingredient.ofItems(ModItems.TRANS_INGOT));
+
 
         private final int miningLevel;
         private final int itemDurability;

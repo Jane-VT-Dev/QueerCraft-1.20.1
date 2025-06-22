@@ -15,3 +15,30 @@ One Base Ingot (Brown Ingot) that gets dyed
     - 9 exact same stats
     - 1 slightly Stronger
 
+Ingot numbers:
+ - aroace = 1
+ - base = 2
+ - bi = 3
+ - black = 4
+ - blue = 5
+ - cyan = 6
+ - demigender = 7
+ - genderfluid 8
+ - green = 9
+ - grey = A
+ - lesbian = B
+ - light_blue = C
+ - light_grey = D
+ - lime = E
+ - magenta = F
+ - mlm = G
+ - nonbinary = H
+ - orange = I
+ - pan = J
+ - pink = K
+ - purple = L
+ - queer = M
+ - red = N
+ - trans = O
+ - white = P
+ - yellow = Q

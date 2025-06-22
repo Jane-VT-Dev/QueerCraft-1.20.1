@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "4": {
+      "item": "queercraft:black_ingot"
+    },
+    "L": {
+      "item": "queercraft:purple_ingot"
+    },
+    "P": {
+      "item": "queercraft:white_ingot"
+    },
+    "Q": {
+      "item": "queercraft:yellow_ingot"
+    }
+  },
+  "pattern": [
+    " Q ",
+    "LPL",
+    " 4 "
+  ],
+  "result": {
+    "item": "queercraft:nonbinary_ingot"
+  },
+  "show_notification": true
+}

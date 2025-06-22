@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "9": {
+      "item": "queercraft:green_ingot"
+    },
+    "E": {
+      "item": "queercraft:lime_ingot"
+    },
+    "L": {
+      "item": "queercraft:purple_ingot"
+    },
+    "P": {
+      "item": "queercraft:white_ingot"
+    }
+  },
+  "pattern": [
+    " 9 ",
+    "LPL",
+    " E "
+  ],
+  "result": {
+    "item": "queercraft:aroace_ingot"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "queercraft:magenta_ingot"
+    },
+    "I": {
+      "item": "queercraft:orange_ingot"
+    },
+    "L": {
+      "item": "queercraft:purple_ingot"
+    },
+    "N": {
+      "item": "queercraft:red_ingot"
+    },
+    "P": {
+      "item": "queercraft:white_ingot"
+    }
+  },
+  "pattern": [
+    " N ",
+    "FPI",
+    " L "
+  ],
+  "result": {
+    "item": "queercraft:lesbian_ingot"
+  },
+  "show_notification": true
+}
