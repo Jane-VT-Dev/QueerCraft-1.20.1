@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_axe"
+    },
+    "B": {
+      "item": "queercraft:lesbian_ingot"
+    }
+  },
+  "pattern": [
+    " B ",
+    "B0B",
+    " B "
+  ],
+  "result": {
+    "item": "queercraft:lesbian_axe"
+  },
+  "show_notification": true
+}

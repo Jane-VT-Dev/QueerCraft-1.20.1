@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_hoe"
+    },
+    "G": {
+      "item": "queercraft:mlm_ingot"
+    }
+  },
+  "pattern": [
+    " G ",
+    "G0G",
+    " G "
+  ],
+  "result": {
+    "item": "queercraft:mlm_hoe"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "M": {
+      "item": "queercraft:queer_ingot"
+    }
+  },
+  "pattern": [
+    " M ",
+    "M0M",
+    " M "
+  ],
+  "result": {
+    "item": "queercraft:queer_pickaxe"
+  },
+  "show_notification": true
+}

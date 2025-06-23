@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "queercraft:brown_stone_ore"
+    },
+    "result": "queercraft:brown_ingot",
+    "experience": 1,
+    "cookingtime": 100
+}

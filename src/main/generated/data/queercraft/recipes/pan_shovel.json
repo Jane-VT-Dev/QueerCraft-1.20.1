@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_shovel"
+    },
+    "J": {
+      "item": "queercraft:pan_ingot"
+    }
+  },
+  "pattern": [
+    " J ",
+    "J0J",
+    " J "
+  ],
+  "result": {
+    "item": "queercraft:pan_shovel"
+  },
+  "show_notification": true
+}
