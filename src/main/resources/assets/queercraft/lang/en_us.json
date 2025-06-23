@@ -5,7 +5,7 @@
 
 
   "item.queercraft.aroace_ingot": "Aroace Ingot",
-  "item.queercraft.base_ingot": "Base ingot",
+  "item.queercraft.brown_ingot": "Brown ingot",
   "item.queercraft.bi_ingot": "Bi ingot",
   "item.queercraft.black_ingot": "Black Ingot",
   "item.queercraft.blue_ingot": "Blue Ingot",
@@ -13,10 +13,10 @@
   "item.queercraft.demigender_ingot": "Demigender Ingot",
   "item.queercraft.genderfluid_ingot": "Genderfluid Ingot",
   "item.queercraft.green_ingot": "Green Ingot",
-  "item.queercraft.grey_ingot": "Grey Ingot",
+  "item.queercraft.gray_ingot": "Gray Ingot",
   "item.queercraft.lesbian_ingot": "Lesbian Ingot",
   "item.queercraft.light_blue_ingot": "Light Blue Ingot",
-  "item.queercraft.light_grey_ingot": "Light Grey Ingot",
+  "item.queercraft.light_gray_ingot": "Light Gray Ingot",
   "item.queercraft.lime_ingot": "Lime Ingot",
   "item.queercraft.magenta_ingot": "Magenta Ingot",
   "item.queercraft.mlm_ingot": "MLM Ingot",
@@ -91,6 +91,33 @@
 
 
   "block.queercraft.brown_stone_ore": "Brown Ore",
-  "block.queercraft.brown_deepslate_ore": "Brown Deepslate Ore"
+  "block.queercraft.brown_deepslate_ore": "Brown Deepslate Ore",
+  "block.queercraft.raw_brown_ore_block": "Brown Ore Block",
 
+  "block.queercraft.aroace_block": "Aroace Block",
+  "block.queercraft.brown_block": "Brown Block",
+  "block.queercraft.bi_block": "Bi Block",
+  "block.queercraft.black_block": "Black Block",
+  "block.queercraft.blue_block": "Blue Block",
+  "block.queercraft.cyan_block": "Cyan Block",
+  "block.queercraft.demigender_block": "Demigender Block",
+  "block.queercraft.genderfluid_block": "Genderfluid Block",
+  "block.queercraft.green_block": "Green Block",
+  "block.queercraft.gray_block": "Gray Block",
+  "block.queercraft.lesbian_block": "Lesbian Block",
+  "block.queercraft.light_blue_block": "Light Blue Block",
+  "block.queercraft.light_gray_block": "Light Gray Block",
+  "block.queercraft.lime_block": "Lime Block",
+  "block.queercraft.magenta_block": "Magenta Block",
+  "block.queercraft.mlm_block": "MLM Block",
+  "block.queercraft.nonbinary_block": "Nonbinary Block",
+  "block.queercraft.orange_block": "Orange Block",
+  "block.queercraft.pan_block": "Pan Block",
+  "block.queercraft.pink_block": "Pink Block",
+  "block.queercraft.purple_block": "Purple Block",
+  "block.queercraft.queer_block": "Queer Block",
+  "block.queercraft.red_block": "Red Block",
+  "block.queercraft.trans_block": "Trans Block",
+  "block.queercraft.white_block": "White Block",
+  "block.queercraft.yellow_block": "Yellow Block"
 }

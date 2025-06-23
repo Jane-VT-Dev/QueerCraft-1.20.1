@@ -18,7 +18,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.AROACE_INGOT)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.AROACE_INGOT);
-                        entries.add(ModItems.BASE_INGOT);
+                        entries.add(ModItems.BROWN_INGOT);
                         entries.add(ModItems.BI_INGOT);
                         entries.add(ModItems.BLACK_INGOT);
                         entries.add(ModItems.BLUE_INGOT);
@@ -26,10 +26,10 @@ public class ModItemGroups {
                         entries.add(ModItems.DEMIGENDER_INGOT);
                         entries.add(ModItems.GENDERFLUID_INGOT);
                         entries.add(ModItems.GREEN_INGOT);
-                        entries.add(ModItems.GREY_INGOT);
+                        entries.add(ModItems.GRAY_INGOT);
                         entries.add(ModItems.LESBIAN_INGOT);
                         entries.add(ModItems.LIGHT_BLUE_INGOT);
-                        entries.add(ModItems.LIGHT_GREY_INGOT);
+                        entries.add(ModItems.LIGHT_GRAY_INGOT);
                         entries.add(ModItems.LIME_INGOT);
                         entries.add(ModItems.MAGENTA_INGOT);
                         entries.add(ModItems.MLM_INGOT);
@@ -44,11 +44,37 @@ public class ModItemGroups {
                         entries.add(ModItems.WHITE_INGOT);
                         entries.add(ModItems.YELLOW_INGOT);
 
-
-                        entries.add(ModItems.RAW_BROWN_ORE);
-
                         entries.add(ModBlocks.BROWN_STONE_ORE);
                         entries.add(ModBlocks.BROWN_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.RAW_BROWN_ORE_BLOCK);
+
+
+                        entries.add(ModBlocks.AROACE_BLOCK);
+                        entries.add(ModBlocks.BROWN_BLOCK);
+                        entries.add(ModBlocks.BI_BLOCK);
+                        entries.add(ModBlocks.BLACK_BLOCK);
+                        entries.add(ModBlocks.BLUE_BLOCK);
+                        entries.add(ModBlocks.CYAN_BLOCK);
+                        entries.add(ModBlocks.DEMIGENDER_BLOCK);
+                        entries.add(ModBlocks.GENDERFLUID_BLOCK);
+                        entries.add(ModBlocks.GREEN_BLOCK);
+                        entries.add(ModBlocks.GRAY_BLOCK);
+                        entries.add(ModBlocks.LESBIAN_BLOCK);
+                        entries.add(ModBlocks.LIGHT_BLUE_BLOCK);
+                        entries.add(ModBlocks.LIGHT_GRAY_BLOCK);
+                        entries.add(ModBlocks.LIME_BLOCK);
+                        entries.add(ModBlocks.MAGENTA_BLOCK);
+                        entries.add(ModBlocks.MLM_BLOCK);
+                        entries.add(ModBlocks.NONBINARY_BLOCK);
+                        entries.add(ModBlocks.ORANGE_BLOCK);
+                        entries.add(ModBlocks.PAN_BLOCK);
+                        entries.add(ModBlocks.PINK_BLOCK);
+                        entries.add(ModBlocks.PURPLE_BLOCK);
+                        entries.add(ModBlocks.QUEER_BLOCK);
+                        entries.add(ModBlocks.RED_BLOCK);
+                        entries.add(ModBlocks.TRANS_BLOCK);
+                        entries.add(ModBlocks.WHITE_BLOCK);
+                        entries.add(ModBlocks.YELLOW_BLOCK);
 
                     }).build());
 

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "queercraft:item/base_ingot"
+    "layer0": "queercraft:item/brown_ingot"
   }
 }

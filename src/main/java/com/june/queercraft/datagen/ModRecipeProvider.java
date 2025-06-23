@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.recipe.book.RecipeCategory;
-import net.minecraft.util.Identifier;
 
 import java.util.function.Consumer;
 
@@ -26,7 +25,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('L', ModItems.PURPLE_INGOT)
                 .input('P', ModItems.WHITE_INGOT)
                 .input('E', ModItems.LIME_INGOT)
-                .criterion(hasItem(ModItems.BASE_INGOT),conditionsFromItem(ModItems.BASE_INGOT))
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.BI_INGOT,1)
@@ -36,18 +35,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('F', ModItems.MAGENTA_INGOT)
                 .input('L', ModItems.PURPLE_INGOT)
                 .input('5', ModItems.BLUE_INGOT)
-                .criterion(hasItem(ModItems.BASE_INGOT),conditionsFromItem(ModItems.BASE_INGOT))
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.DEMIGENDER_INGOT,1)
                 .pattern(" D ")
                 .pattern("QPQ")
                 .pattern(" A ")
-                .input('D', ModItems.LIGHT_GREY_INGOT)
+                .input('D', ModItems.LIGHT_GRAY_INGOT)
                 .input('P', ModItems.WHITE_INGOT)
                 .input('Q', ModItems.YELLOW_INGOT)
-                .input('A', ModItems.GREY_INGOT)
-                .criterion(hasItem(ModItems.BASE_INGOT),conditionsFromItem(ModItems.BASE_INGOT))
+                .input('A', ModItems.GRAY_INGOT)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.NONBINARY_INGOT,1)
@@ -58,7 +57,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModItems.WHITE_INGOT)
                 .input('L', ModItems.PURPLE_INGOT)
                 .input('4', ModItems.BLACK_INGOT)
-                .criterion(hasItem(ModItems.BASE_INGOT),conditionsFromItem(ModItems.BASE_INGOT))
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.GENDERFLUID_INGOT,1)
@@ -70,7 +69,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('L', ModItems.PURPLE_INGOT)
                 .input('4', ModItems.BLACK_INGOT)
                 .input('5', ModItems.BLUE_INGOT)
-                .criterion(hasItem(ModItems.BASE_INGOT),conditionsFromItem(ModItems.BASE_INGOT))
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.LESBIAN_INGOT,1)
@@ -82,7 +81,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModItems.WHITE_INGOT)
                 .input('I', ModItems.ORANGE_INGOT)
                 .input('L', ModItems.PURPLE_INGOT)
-                .criterion(hasItem(ModItems.BASE_INGOT),conditionsFromItem(ModItems.BASE_INGOT))
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.MLM_INGOT,1)
@@ -92,7 +91,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('6', ModItems.CYAN_INGOT)
                 .input('5', ModItems.BLUE_INGOT)
                 .input('P', ModItems.WHITE_INGOT)
-                .criterion(hasItem(ModItems.BASE_INGOT),conditionsFromItem(ModItems.BASE_INGOT))
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.PAN_INGOT,1)
@@ -102,7 +101,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('F', ModItems.MAGENTA_INGOT)
                 .input('Q', ModItems.YELLOW_INGOT)
                 .input('C', ModItems.LIGHT_BLUE_INGOT)
-                .criterion(hasItem(ModItems.BASE_INGOT),conditionsFromItem(ModItems.BASE_INGOT))
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.QUEER_INGOT,1)
@@ -118,7 +117,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('H', ModItems.NONBINARY_INGOT)
                 .input('O', ModItems.TRANS_INGOT)
                 .input('J', ModItems.PAN_INGOT)
-                .criterion(hasItem(ModItems.BASE_INGOT),conditionsFromItem(ModItems.BASE_INGOT))
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
     }

@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item AROACE_INGOT = registerItem("aroace_ingot",new Item(new FabricItemSettings()));
-    public static final Item BASE_INGOT = registerItem("base_ingot",new Item(new FabricItemSettings()));
+    public static final Item BROWN_INGOT = registerItem("brown_ingot",new Item(new FabricItemSettings()));
     public static final Item BI_INGOT = registerItem("bi_ingot",new Item(new FabricItemSettings()));
     public static final Item BLACK_INGOT = registerItem("black_ingot",new Item(new FabricItemSettings()));
     public static final Item BLUE_INGOT = registerItem("blue_ingot",new Item(new FabricItemSettings()));
@@ -18,10 +18,10 @@ public class ModItems {
     public static final Item DEMIGENDER_INGOT = registerItem("demigender_ingot",new Item(new FabricItemSettings()));
     public static final Item GENDERFLUID_INGOT = registerItem("genderfluid_ingot",new Item(new FabricItemSettings()));
     public static final Item GREEN_INGOT = registerItem("green_ingot",new Item(new FabricItemSettings()));
-    public static final Item GREY_INGOT = registerItem("grey_ingot",new Item(new FabricItemSettings()));
+    public static final Item GRAY_INGOT = registerItem("gray_ingot",new Item(new FabricItemSettings()));
     public static final Item LESBIAN_INGOT = registerItem("lesbian_ingot",new Item(new FabricItemSettings()));
     public static final Item LIGHT_BLUE_INGOT = registerItem("light_blue_ingot",new Item(new FabricItemSettings()));
-    public static final Item LIGHT_GREY_INGOT = registerItem("light_grey_ingot",new Item(new FabricItemSettings()));
+    public static final Item LIGHT_GRAY_INGOT = registerItem("light_gray_ingot",new Item(new FabricItemSettings()));
     public static final Item LIME_INGOT = registerItem("lime_ingot",new Item(new FabricItemSettings()));
     public static final Item MAGENTA_INGOT = registerItem("magenta_ingot",new Item(new FabricItemSettings()));
     public static final Item MLM_INGOT = registerItem("mlm_ingot",new Item(new FabricItemSettings()));

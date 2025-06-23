@@ -17,7 +17,7 @@ One Base Ingot (Brown Ingot) that gets dyed
 
 Ingot numbers:
  - aroace = 1
- - base = 2
+ - brown = 2
  - bi = 3
  - black = 4
  - blue = 5

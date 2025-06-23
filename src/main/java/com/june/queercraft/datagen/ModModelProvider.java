@@ -18,13 +18,42 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BROWN_STONE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BROWN_DEEPSLATE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_BROWN_ORE_BLOCK);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AROACE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BI_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEMIGENDER_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GENDERFLUID_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LESBIAN_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MLM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NONBINARY_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PAN_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.QUEER_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TRANS_BLOCK);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACK_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BROWN_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CYAN_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GREEN_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAY_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_BLUE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_GRAY_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIME_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGENTA_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURPLE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.YELLOW_BLOCK);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
         itemModelGenerator.register(ModItems.AROACE_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.BASE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BROWN_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.BI_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLACK_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLUE_INGOT, Models.GENERATED);
@@ -32,10 +61,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DEMIGENDER_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.GENDERFLUID_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.GREEN_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.GREY_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GRAY_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.LESBIAN_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.LIGHT_BLUE_INGOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.LIGHT_GREY_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LIGHT_GRAY_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.LIME_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAGENTA_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.MLM_INGOT, Models.GENERATED);
