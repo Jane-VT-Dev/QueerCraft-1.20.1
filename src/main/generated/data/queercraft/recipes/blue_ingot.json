@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "queercraft:blue_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "queercraft:blue_ingot"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "queercraft:lime_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "queercraft:lime_ingot"
+  }
+}

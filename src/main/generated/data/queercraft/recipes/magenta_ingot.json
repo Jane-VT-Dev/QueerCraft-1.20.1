@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "queercraft:magenta_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "queercraft:magenta_ingot"
+  }
+}

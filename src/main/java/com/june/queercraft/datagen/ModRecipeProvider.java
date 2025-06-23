@@ -1,10 +1,12 @@
 package com.june.queercraft.datagen;
 
+import com.june.queercraft.block.ModBlocks;
 import com.june.queercraft.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.recipe.book.RecipeCategory;
 
 import java.util.function.Consumer;
@@ -119,6 +121,58 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('J', ModItems.PAN_INGOT)
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_BROWN_ORE, RecipeCategory.DECORATIONS,
+                ModBlocks.RAW_BROWN_ORE_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BROWN_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.BROWN_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BLACK_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.BLACK_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BLUE_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.BLUE_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.CYAN_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.CYAN_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.GREEN_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.GREEN_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.GRAY_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.GRAY_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LIGHT_BLUE_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.LIGHT_BLUE_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LIGHT_GRAY_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.LIGHT_GRAY_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LIME_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.LIME_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.MAGENTA_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.MAGENTA_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ORANGE_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.ORANGE_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PINK_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.PINK_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PURPLE_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.PURPLE_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RED_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.RED_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.WHITE_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.WHITE_BLOCK);
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.YELLOW_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.YELLOW_BLOCK);
+
 
     }
 }

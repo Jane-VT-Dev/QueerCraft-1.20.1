@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "queercraft:light_gray_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "queercraft:light_gray_ingot"
+  }
+}
