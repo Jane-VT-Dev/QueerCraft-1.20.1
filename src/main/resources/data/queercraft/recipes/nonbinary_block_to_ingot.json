@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "queercraft:nonbinary_block"
+        }
+    ],
+    "result": {
+        "item": "queercraft:nonbinary_ingot",
+        "count": 9
+    }
+}

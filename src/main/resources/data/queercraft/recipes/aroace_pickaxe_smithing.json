@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_trim",
+    "template": {
+        "item": "queecraft:queer_template"
+    },
+    "base": {
+        "item": "minecraft:netherite_pickaxe"
+    },
+    "addition": {
+        "item": "queercraft:aroace_ingot"
+    },
+    "result": {
+        "item": "minecraft:wooden_pickaxe"
+    }
+}

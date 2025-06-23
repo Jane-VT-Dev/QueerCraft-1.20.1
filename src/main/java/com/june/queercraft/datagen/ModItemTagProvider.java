@@ -130,6 +130,5 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.QUEER_HOE)
                 .add(ModItems.TRANS_HOE);
 
-
     }
 }
