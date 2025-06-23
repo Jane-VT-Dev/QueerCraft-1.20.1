@@ -31,7 +31,7 @@ import java.util.function.Supplier;
         PAN(4, 1000, 4.5f, 4.5f, 26,
                 () -> Ingredient.ofItems(ModItems.PAN_INGOT)),
 
-        QUEER(5, 1500, 4.5f, 5f, 26,
+        QUEER(5, 1500, 11f, 5f, 26,
                 () -> Ingredient.ofItems(ModItems.QUEER_INGOT)),
 
         TRANS(4, 1000, 4.5f, 4.5f, 26,

@@ -110,31 +110,31 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.AROACE, 1, -3f, new FabricItemSettings()));
 
     public static final Item BI_SHOVEL = registerItem("bi_shovel",
-            new ShovelItem(ModToolMaterial.BI, 0, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.BI, 1, -3f, new FabricItemSettings()));
 
     public static final Item DEMIGENDER_SHOVEL= registerItem("demigender_shovel",
-            new ShovelItem(ModToolMaterial.DEMIGENDER, 0, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.DEMIGENDER, 1, -3f, new FabricItemSettings()));
 
     public static final Item GENDERFLUID_SHOVEL= registerItem("genderfluid_shovel",
-            new ShovelItem(ModToolMaterial.GENDERFLUID, 0, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.GENDERFLUID, 1, -3f, new FabricItemSettings()));
 
     public static final Item LESBIAN_SHOVEL = registerItem("lesbian_shovel",
-            new ShovelItem(ModToolMaterial.LESBIAN, 0, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.LESBIAN, 1, -3f, new FabricItemSettings()));
 
     public static final Item MLM_SHOVEL = registerItem("mlm_shovel",
-            new ShovelItem(ModToolMaterial.MLM, 0, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.MLM, 1, -3f, new FabricItemSettings()));
 
     public static final Item NONBINARY_SHOVEL = registerItem("nonbinary_shovel",
-            new ShovelItem(ModToolMaterial.NONBINARY, 0, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.NONBINARY, 1, -3f, new FabricItemSettings()));
 
     public static final Item PAN_SHOVEL = registerItem("pan_shovel",
-            new ShovelItem(ModToolMaterial.PAN, 0, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.PAN, 1, -3f, new FabricItemSettings()));
 
     public static final Item QUEER_SHOVEL = registerItem("queer_shovel",
-            new ShovelItem(ModToolMaterial.QUEER, 0, -3f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.QUEER, 1, -3f, new FabricItemSettings()));
 
     public static final Item TRANS_SHOVEL = registerItem("trans_shovel",
-            new ShovelItem(ModToolMaterial.TRANS, 0, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.TRANS, 1, -3f, new FabricItemSettings()));
 
     //================================================================================
 

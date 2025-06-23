@@ -59,47 +59,44 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.QUEER_PICKAXE)).entries((displayContext, entries) -> {
 
                     entries.add(ModItems.AROACE_PICKAXE);
-                    entries.add(ModItems.BI_PICKAXE);
-                    entries.add(ModItems.DEMIGENDER_PICKAXE);
-                    entries.add(ModItems.GENDERFLUID_PICKAXE);
-                    entries.add(ModItems.LESBIAN_PICKAXE);
-                    entries.add(ModItems.MLM_PICKAXE);
-                    entries.add(ModItems.NONBINARY_PICKAXE);
-                    entries.add(ModItems.PAN_PICKAXE);
-                    entries.add(ModItems.QUEER_PICKAXE);
-                    entries.add(ModItems.TRANS_PICKAXE);
-
                     entries.add(ModItems.AROACE_AXE);
-                    entries.add(ModItems.BI_AXE);
-                    entries.add(ModItems.DEMIGENDER_AXE);
-                    entries.add(ModItems.GENDERFLUID_AXE);
-                    entries.add(ModItems.LESBIAN_AXE);
-                    entries.add(ModItems.MLM_AXE);
-                    entries.add(ModItems.NONBINARY_AXE);
-                    entries.add(ModItems.PAN_AXE);
-                    entries.add(ModItems.QUEER_AXE);
-                    entries.add(ModItems.TRANS_AXE);
-
                     entries.add(ModItems.AROACE_SHOVEL);
-                    entries.add(ModItems.BI_SHOVEL);
-                    entries.add(ModItems.DEMIGENDER_SHOVEL);
-                    entries.add(ModItems.GENDERFLUID_SHOVEL);
-                    entries.add(ModItems.LESBIAN_SHOVEL);
-                    entries.add(ModItems.MLM_SHOVEL);
-                    entries.add(ModItems.NONBINARY_SHOVEL);
-                    entries.add(ModItems.PAN_SHOVEL);
-                    entries.add(ModItems.QUEER_SHOVEL);
-                    entries.add(ModItems.TRANS_SHOVEL);
-
                     entries.add(ModItems.AROACE_HOE);
+                    entries.add(ModItems.BI_PICKAXE);
+                    entries.add(ModItems.BI_AXE);
+                    entries.add(ModItems.BI_SHOVEL);
                     entries.add(ModItems.BI_HOE);
+                    entries.add(ModItems.DEMIGENDER_PICKAXE);
+                    entries.add(ModItems.DEMIGENDER_AXE);
+                    entries.add(ModItems.DEMIGENDER_SHOVEL);
                     entries.add(ModItems.DEMIGENDER_HOE);
+                    entries.add(ModItems.GENDERFLUID_PICKAXE);
+                    entries.add(ModItems.GENDERFLUID_AXE);
+                    entries.add(ModItems.GENDERFLUID_SHOVEL);
                     entries.add(ModItems.GENDERFLUID_HOE);
+                    entries.add(ModItems.LESBIAN_PICKAXE);
+                    entries.add(ModItems.LESBIAN_AXE);
+                    entries.add(ModItems.LESBIAN_SHOVEL);
                     entries.add(ModItems.LESBIAN_HOE);
+                    entries.add(ModItems.MLM_PICKAXE);
+                    entries.add(ModItems.MLM_AXE);
+                    entries.add(ModItems.MLM_SHOVEL);
                     entries.add(ModItems.MLM_HOE);
+                    entries.add(ModItems.NONBINARY_PICKAXE);
+                    entries.add(ModItems.NONBINARY_AXE);
+                    entries.add(ModItems.NONBINARY_SHOVEL);
                     entries.add(ModItems.NONBINARY_HOE);
+                    entries.add(ModItems.PAN_PICKAXE);
+                    entries.add(ModItems.PAN_AXE);
+                    entries.add(ModItems.PAN_SHOVEL);
                     entries.add(ModItems.PAN_HOE);
+                    entries.add(ModItems.QUEER_PICKAXE);
+                    entries.add(ModItems.QUEER_AXE);
+                    entries.add(ModItems.QUEER_SHOVEL);
                     entries.add(ModItems.QUEER_HOE);
+                    entries.add(ModItems.TRANS_PICKAXE);
+                    entries.add(ModItems.TRANS_AXE);
+                    entries.add(ModItems.TRANS_SHOVEL);
                     entries.add(ModItems.TRANS_HOE);
 
                     }).build());

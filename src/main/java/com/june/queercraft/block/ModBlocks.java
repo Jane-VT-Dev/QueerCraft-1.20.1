@@ -1,6 +1,7 @@
 package com.june.queercraft.block;
 
 import com.june.queercraft.QueerCraft;
+import com.june.queercraft.item.ModItems;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -16,10 +17,10 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class ModBlocks {
 
     public static final Block BROWN_STONE_ORE = registerBlock("brown_stone_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.COAL_ORE).strength(3.0F)));
+            new Block(FabricBlockSettings.create().hardness(1f).sounds(BlockSoundGroup.STONE).solid()));
 
     public static final Block BROWN_DEEPSLATE_ORE = registerBlock("brown_deepslate_ore",
-            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COAL_ORE).strength(3.0F)));
+            new Block(FabricBlockSettings.create().hardness(1.2f).sounds(BlockSoundGroup.DEEPSLATE).solid()));
 
 
 
