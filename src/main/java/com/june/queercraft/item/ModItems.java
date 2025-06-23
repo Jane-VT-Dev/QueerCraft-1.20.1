@@ -43,162 +43,162 @@ public class ModItems {
     //================================================================================
 
     public static final Item AROACE_PICKAXE = registerItem("aroace_pickaxe",
-            new PickaxeItem(ModToolMaterial.AROACE, 1, 1f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.AROACE, 1, -2.8f, new FabricItemSettings()));
 
     public static final Item BI_PICKAXE = registerItem("bi_pickaxe",
-            new PickaxeItem(ModToolMaterial.BI, 1, 1f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.BI, 1, -2.8f, new FabricItemSettings()));
 
     public static final Item DEMIGENDER_PICKAXE = registerItem("demigender_pickaxe",
-            new PickaxeItem(ModToolMaterial.DEMIGENDER, 1, 1f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.DEMIGENDER, 1, -2.8f, new FabricItemSettings()));
 
     public static final Item GENDERFLUID_PICKAXE = registerItem("genderfluid_pickaxe",
-            new PickaxeItem(ModToolMaterial.GENDERFLUID, 1, 1f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.GENDERFLUID, 1, -2.8f, new FabricItemSettings()));
 
     public static final Item LESBIAN_PICKAXE = registerItem("lesbian_pickaxe",
-            new PickaxeItem(ModToolMaterial.LESBIAN, 1, 1f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.LESBIAN, 1, -2.8f, new FabricItemSettings()));
 
     public static final Item MLM_PICKAXE = registerItem("mlm_pickaxe",
-            new PickaxeItem(ModToolMaterial.MLM, 1, 1f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.MLM, 1, -2.8f, new FabricItemSettings()));
 
     public static final Item NONBINARY_PICKAXE = registerItem("nonbinary_pickaxe",
-            new PickaxeItem(ModToolMaterial.NONBINARY, 1, 1f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.NONBINARY, 1, -2.8f, new FabricItemSettings()));
 
     public static final Item PAN_PICKAXE = registerItem("pan_pickaxe",
-            new PickaxeItem(ModToolMaterial.PAN, 1, 1f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.PAN, 1, -2.8f, new FabricItemSettings()));
 
     public static final Item QUEER_PICKAXE = registerItem("queer_pickaxe",
-            new PickaxeItem(ModToolMaterial.QUEER, 1, 1f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.QUEER, 1, -2.8f, new FabricItemSettings()));
 
     public static final Item TRANS_PICKAXE = registerItem("trans_pickaxe",
-            new PickaxeItem(ModToolMaterial.TRANS, 1, 1f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.TRANS, 1, -2.8f, new FabricItemSettings()));
 
     //================================================================================
 
     public static final Item AROACE_AXE = registerItem("aroace_axe",
-            new AxeItem(ModToolMaterial.AROACE, 1, 1f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.AROACE, 6, -3f, new FabricItemSettings()));
 
     public static final Item BI_AXE = registerItem("bi_axe",
-            new AxeItem(ModToolMaterial.BI, 1, 1f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.BI, 6, -3f, new FabricItemSettings()));
 
     public static final Item DEMIGENDER_AXE = registerItem("demigender_axe",
-            new AxeItem(ModToolMaterial.DEMIGENDER, 1, 1f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.DEMIGENDER, 6, -3f, new FabricItemSettings()));
 
     public static final Item GENDERFLUID_AXE = registerItem("genderfluid_axe",
-            new AxeItem(ModToolMaterial.GENDERFLUID, 1, 1f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.GENDERFLUID, 6, -3f, new FabricItemSettings()));
 
     public static final Item LESBIAN_AXE = registerItem("lesbian_axe",
-            new AxeItem(ModToolMaterial.LESBIAN, 1, 1f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.LESBIAN, 6, -3f, new FabricItemSettings()));
 
     public static final Item MLM_AXE = registerItem("mlm_axe",
-            new AxeItem(ModToolMaterial.MLM, 1, 1f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.MLM, 6, -3f, new FabricItemSettings()));
 
     public static final Item NONBINARY_AXE = registerItem("nonbinary_axe",
-            new AxeItem(ModToolMaterial.NONBINARY, 1, 1f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.NONBINARY, 6, -3f, new FabricItemSettings()));
 
     public static final Item PAN_AXE = registerItem("pan_axe",
-            new AxeItem(ModToolMaterial.PAN, 1, 1f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.PAN, 6, -3f, new FabricItemSettings()));
 
     public static final Item QUEER_AXE = registerItem("queer_axe",
-            new AxeItem(ModToolMaterial.QUEER, 1, 1f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.QUEER, 6, -3f, new FabricItemSettings()));
 
     public static final Item TRANS_AXE = registerItem("trans_axe",
-            new AxeItem(ModToolMaterial.TRANS, 1, 1f, new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.TRANS, 6, -3f, new FabricItemSettings()));
 
     //================================================================================
 
     public static final Item AROACE_SHOVEL = registerItem("aroace_shovel",
-            new ShovelItem(ModToolMaterial.AROACE, 1, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.AROACE, 1, -3f, new FabricItemSettings()));
 
     public static final Item BI_SHOVEL = registerItem("bi_shovel",
-            new ShovelItem(ModToolMaterial.BI, 1, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.BI, 0, 1f, new FabricItemSettings()));
 
     public static final Item DEMIGENDER_SHOVEL= registerItem("demigender_shovel",
-            new ShovelItem(ModToolMaterial.DEMIGENDER, 1, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.DEMIGENDER, 0, 1f, new FabricItemSettings()));
 
     public static final Item GENDERFLUID_SHOVEL= registerItem("genderfluid_shovel",
-            new ShovelItem(ModToolMaterial.GENDERFLUID, 1, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.GENDERFLUID, 0, 1f, new FabricItemSettings()));
 
     public static final Item LESBIAN_SHOVEL = registerItem("lesbian_shovel",
-            new ShovelItem(ModToolMaterial.LESBIAN, 1, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.LESBIAN, 0, 1f, new FabricItemSettings()));
 
     public static final Item MLM_SHOVEL = registerItem("mlm_shovel",
-            new ShovelItem(ModToolMaterial.MLM, 1, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.MLM, 0, 1f, new FabricItemSettings()));
 
     public static final Item NONBINARY_SHOVEL = registerItem("nonbinary_shovel",
-            new ShovelItem(ModToolMaterial.NONBINARY, 1, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.NONBINARY, 0, 1f, new FabricItemSettings()));
 
     public static final Item PAN_SHOVEL = registerItem("pan_shovel",
-            new ShovelItem(ModToolMaterial.PAN, 1, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.PAN, 0, 1f, new FabricItemSettings()));
 
     public static final Item QUEER_SHOVEL = registerItem("queer_shovel",
-            new ShovelItem(ModToolMaterial.QUEER, 1, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.QUEER, 0, -3f, new FabricItemSettings()));
 
     public static final Item TRANS_SHOVEL = registerItem("trans_shovel",
-            new ShovelItem(ModToolMaterial.TRANS, 1, 1f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.TRANS, 0, 1f, new FabricItemSettings()));
 
     //================================================================================
 
     public static final Item AROACE_HOE = registerItem("aroace_hoe",
-            new HoeItem(ModToolMaterial.AROACE, 1, 1f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.AROACE, -4, 0f, new FabricItemSettings()));
 
     public static final Item BI_HOE = registerItem("bi_hoe",
-            new HoeItem(ModToolMaterial.BI, 1, 1f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.BI, -4, 0f, new FabricItemSettings()));
 
     public static final Item DEMIGENDER_HOE = registerItem("demigender_hoe",
-            new HoeItem(ModToolMaterial.DEMIGENDER, 1, 1f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.DEMIGENDER, -4, 0f, new FabricItemSettings()));
 
     public static final Item GENDERFLUID_HOE = registerItem("genderfluid_hoe",
-            new HoeItem(ModToolMaterial.GENDERFLUID, 1, 1f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.GENDERFLUID, -4, 0f, new FabricItemSettings()));
 
     public static final Item LESBIAN_HOE = registerItem("lesbian_hoe",
-            new HoeItem(ModToolMaterial.LESBIAN, 1, 1f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.LESBIAN, -4, 0f, new FabricItemSettings()));
 
     public static final Item MLM_HOE = registerItem("mlm_hoe",
-            new HoeItem(ModToolMaterial.MLM, 1, 1f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.MLM, -4, 0f, new FabricItemSettings()));
 
     public static final Item NONBINARY_HOE = registerItem("nonbinary_hoe",
-            new HoeItem(ModToolMaterial.NONBINARY, 1, 1f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.NONBINARY, -4, 0f, new FabricItemSettings()));
 
     public static final Item PAN_HOE = registerItem("pan_hoe",
-            new HoeItem(ModToolMaterial.PAN, 1, 1f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.PAN, -4, 0f, new FabricItemSettings()));
 
     public static final Item QUEER_HOE = registerItem("queer_hoe",
-            new HoeItem(ModToolMaterial.QUEER, 1, 1f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.QUEER, -4, 0f, new FabricItemSettings()));
 
     public static final Item TRANS_HOE = registerItem("trans_hoe",
-            new HoeItem(ModToolMaterial.TRANS, 1, 1f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.TRANS, -4, 0f, new FabricItemSettings()));
 
     //================================================================================
 
     public static final Item AROACE_SWORD = registerItem("aroace_sword",
-            new SwordItem(ModToolMaterial.AROACE, 1, 1f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.AROACE, 4, -2f, new FabricItemSettings()));
 
     public static final Item BI_SWORD = registerItem("bi_sword",
-            new SwordItem(ModToolMaterial.BI, 1, 1f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.BI, 4, -2f, new FabricItemSettings()));
 
     public static final Item DEMIGENDER_SWORD = registerItem("demigender_sword",
-            new SwordItem(ModToolMaterial.DEMIGENDER, 1, 1f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.DEMIGENDER, 4, -2f, new FabricItemSettings()));
 
     public static final Item GENDERFLUID_SWORD = registerItem("genderfluid_sword",
-            new SwordItem(ModToolMaterial.GENDERFLUID, 1, 1f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.GENDERFLUID, 4, -2f, new FabricItemSettings()));
 
     public static final Item LESBIAN_SWORD = registerItem("lesbian_sword",
-            new SwordItem(ModToolMaterial.LESBIAN, 1, 1f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.LESBIAN, 4, -2f, new FabricItemSettings()));
 
     public static final Item MLM_SWORD = registerItem("mlm_sword",
-            new SwordItem(ModToolMaterial.MLM, 1, 1f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.MLM, 4, -2f, new FabricItemSettings()));
 
     public static final Item NONBINARY_SWORD = registerItem("nonbinary_sword",
-            new SwordItem(ModToolMaterial.NONBINARY, 1, 1f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.NONBINARY, 4, -2f, new FabricItemSettings()));
 
     public static final Item PAN_SWORD = registerItem("pan_sword",
-            new SwordItem(ModToolMaterial.PAN, 1, 1f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.PAN, 4, -2f, new FabricItemSettings()));
 
     public static final Item QUEER_SWORD = registerItem("queer_sword",
-            new SwordItem(ModToolMaterial.QUEER, 1, 1f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.QUEER, 4, -1.5f, new FabricItemSettings()));
 
     public static final Item TRANS_SWORD = registerItem("trans_sword",
-            new SwordItem(ModToolMaterial.TRANS, 1, 1f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.TRANS, 4, -2f, new FabricItemSettings()));
 
     //================================================================================
     private static Item registerItem(String name, Item item){

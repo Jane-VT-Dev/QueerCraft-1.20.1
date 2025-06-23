@@ -7,34 +7,34 @@ import java.util.function.Supplier;
 
     public enum ModToolMaterial implements ToolMaterial {
 
-        AROACE(0, 650, 4.5f, 3.5f, 26,
+        AROACE(4, 1000, 4.5f, 4.5f, 26,
                 () -> Ingredient.ofItems(ModItems.AROACE_INGOT)),
 
-        BI(5, 650, 4.5f, 3.5f, 26,
+        BI(4, 1000, 4.5f, 4.5f, 26,
                 () -> Ingredient.ofItems(ModItems.BI_INGOT)),
 
-        DEMIGENDER(5, 650, 4.5f, 3.5f, 26,
+        DEMIGENDER(4, 1000, 4.5f, 4.5f, 26,
                 () -> Ingredient.ofItems(ModItems.DEMIGENDER_INGOT)),
 
-        GENDERFLUID(5, 650, 4.5f, 3.5f, 26,
+        GENDERFLUID(4, 1000, 4.5f, 4.5f, 26,
                 () -> Ingredient.ofItems(ModItems.GENDERFLUID_INGOT)),
 
-        LESBIAN(5, 650, 4.5f, 3.5f, 26,
+        LESBIAN(4, 1000, 4.5f, 4.5f, 26,
                 () -> Ingredient.ofItems(ModItems.LESBIAN_INGOT)),
 
-        MLM(5, 650, 4.5f, 3.5f, 26,
+        MLM(4, 1000, 4.5f, 4.5f, 26,
                 () -> Ingredient.ofItems(ModItems.MLM_INGOT)),
 
-        NONBINARY(5, 650, 4.5f, 3.5f, 26,
+        NONBINARY(4, 1000, 4.5f, 4.5f, 26,
                 () -> Ingredient.ofItems(ModItems.NONBINARY_INGOT)),
 
-        PAN(5, 650, 4.5f, 3.5f, 26,
+        PAN(4, 1000, 4.5f, 4.5f, 26,
                 () -> Ingredient.ofItems(ModItems.PAN_INGOT)),
 
-        QUEER(5, 650, 4.5f, 3.5f, 26,
+        QUEER(5, 1500, 4.5f, 5f, 26,
                 () -> Ingredient.ofItems(ModItems.QUEER_INGOT)),
 
-        TRANS(5, 650, 4.5f, 3.5f, 26,
+        TRANS(4, 1000, 4.5f, 4.5f, 26,
                 () -> Ingredient.ofItems(ModItems.TRANS_INGOT));
 
 
