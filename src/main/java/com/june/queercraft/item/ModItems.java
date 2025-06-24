@@ -1,11 +1,15 @@
 package com.june.queercraft.item;
 
 import com.june.queercraft.QueerCraft;
+import com.june.queercraft.item.materials.ModArmorMaterials;
+import com.june.queercraft.item.materials.ModToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+
+import static net.minecraft.item.Items.register;
 
 public class ModItems {
 
@@ -201,6 +205,129 @@ public class ModItems {
             new SwordItem(ModToolMaterial.TRANS, 4, -2f, new FabricItemSettings()));
 
     //================================================================================
+
+    public static final Item AROACE_HELMET = registerItem("aroace_helmet",
+            new ArmorItem(ModArmorMaterials.AROACE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item AROACE_CHESTPLATE = registerItem("aroace_chestplate",
+            new ArmorItem(ModArmorMaterials.AROACE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item AROACE_LEGGINGS = registerItem("aroace_leggings",
+            new ArmorItem(ModArmorMaterials.AROACE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item AROACE_BOOTS = registerItem("aroace_boots",
+            new ArmorItem(ModArmorMaterials.AROACE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item BI_HELMET = registerItem("bi_helmet",
+            new ArmorItem(ModArmorMaterials.BI, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item BI_CHESTPLATE = registerItem("bi_chestplate",
+            new ArmorItem(ModArmorMaterials.BI, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item BI_LEGGINGS = registerItem("bi_leggings",
+            new ArmorItem(ModArmorMaterials.BI, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item BI_BOOTS = registerItem("bi_boots",
+            new ArmorItem(ModArmorMaterials.BI, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item DEMIGENDER_HELMET = registerItem("demigender_helmet",
+            new ArmorItem(ModArmorMaterials.DEMIGENDER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item DEMIGENDER_CHESTPLATE = registerItem("demigender_chestplate",
+            new ArmorItem(ModArmorMaterials.DEMIGENDER, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item DEMIGENDER_LEGGINGS = registerItem("demigender_leggings",
+            new ArmorItem(ModArmorMaterials.DEMIGENDER, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item DEMIGENDER_BOOTS = registerItem("demigender_boots",
+            new ArmorItem(ModArmorMaterials.DEMIGENDER, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item GENDERFLUID_HELMET = registerItem("genderfluid_helmet",
+            new ArmorItem(ModArmorMaterials.GENDERFLUID, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item GENDERFLUID_CHESTPLATE = registerItem("genderfluid_chestplate",
+            new ArmorItem(ModArmorMaterials.GENDERFLUID, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item GENDERFLUID_LEGGINGS = registerItem("genderfluid_leggings",
+            new ArmorItem(ModArmorMaterials.GENDERFLUID, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item GENDERFLUID_BOOTS = registerItem("genderfluid_boots",
+            new ArmorItem(ModArmorMaterials.GENDERFLUID, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item LESBIAN_HELMET = registerItem("lesbian_helmet",
+            new ArmorItem(ModArmorMaterials.LESBIAN, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item LESBIAN_CHESTPLATE = registerItem("lesbian_chestplate",
+            new ArmorItem(ModArmorMaterials.LESBIAN, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item LESBIAN_LEGGINGS = registerItem("lesbian_leggings",
+            new ArmorItem(ModArmorMaterials.LESBIAN, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item LESBIAN_BOOTS = registerItem("lesbian_boots",
+            new ArmorItem(ModArmorMaterials.LESBIAN, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item MLM_HELMET = registerItem("mlm_helmet",
+            new ArmorItem(ModArmorMaterials.MLM, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item MLM_CHESTPLATE = registerItem("mlm_chestplate",
+            new ArmorItem(ModArmorMaterials.MLM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item MLM_LEGGINGS = registerItem("mlm_leggings",
+            new ArmorItem(ModArmorMaterials.MLM, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item MLM_BOOTS = registerItem("mlm_boots",
+            new ArmorItem(ModArmorMaterials.MLM, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item NONBINARY_HELMET = registerItem("nonbinary_helmet",
+            new ArmorItem(ModArmorMaterials.NONBINARY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item NONBINARY_CHESTPLATE = registerItem("nonbinary_chestplate",
+            new ArmorItem(ModArmorMaterials.NONBINARY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item NONBINARY_LEGGINGS = registerItem("nonbinary_leggings",
+            new ArmorItem(ModArmorMaterials.NONBINARY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item NONBINARY_BOOTS = registerItem("nonbinary_boots",
+            new ArmorItem(ModArmorMaterials.NONBINARY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item PAN_HELMET = registerItem("pan_helmet",
+            new ArmorItem(ModArmorMaterials.PAN, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item PAN_CHESTPLATE = registerItem("pan_chestplate",
+            new ArmorItem(ModArmorMaterials.PAN, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item PAN_LEGGINGS = registerItem("pan_leggings",
+            new ArmorItem(ModArmorMaterials.PAN, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item PAN_BOOTS = registerItem("pan_boots",
+            new ArmorItem(ModArmorMaterials.PAN, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item QUEER_HELMET = registerItem("queer_helmet",
+            new ArmorItem(ModArmorMaterials.QUEER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item QUEER_CHESTPLATE = registerItem("queer_chestplate",
+            new ArmorItem(ModArmorMaterials.QUEER, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item QUEER_LEGGINGS = registerItem("queer_leggings",
+            new ArmorItem(ModArmorMaterials.QUEER, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item QUEER_BOOTS = registerItem("queer_boots",
+            new ArmorItem(ModArmorMaterials.QUEER, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item TRANS_HELMET = registerItem("trans_helmet",
+            new ArmorItem(ModArmorMaterials.TRANS, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item TRANS_CHESTPLATE = registerItem("trans_chestplate",
+            new ArmorItem(ModArmorMaterials.TRANS, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item TRANS_LEGGINGS = registerItem("trans_leggings",
+            new ArmorItem(ModArmorMaterials.TRANS, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item TRANS_BOOTS = registerItem("trans_boots",
+            new ArmorItem(ModArmorMaterials.TRANS, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    //================================================================================
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(QueerCraft.MOD_ID, name),item);
     }

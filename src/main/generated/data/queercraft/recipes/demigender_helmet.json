@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_helmet"
+    },
+    "7": {
+      "item": "queercraft:demigender_ingot"
+    }
+  },
+  "pattern": [
+    " 7 ",
+    "707",
+    " 7 "
+  ],
+  "result": {
+    "item": "queercraft:demigender_helmet"
+  },
+  "show_notification": true
+}

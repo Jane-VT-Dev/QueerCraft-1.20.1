@@ -649,5 +649,373 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
+        //================================================================================
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_HELMET,1)
+                .pattern(" 1 ")
+                .pattern("101")
+                .pattern(" 1 ")
+                .input('1', ModItems.AROACE_INGOT)
+                .input('0', Items.NETHERITE_HELMET)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_HELMET,1)
+                .pattern(" 3 ")
+                .pattern("303")
+                .pattern(" 3 ")
+                .input('3', ModItems.BI_INGOT)
+                .input('0', Items.NETHERITE_HELMET)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_HELMET,1)
+                .pattern(" 7 ")
+                .pattern("707")
+                .pattern(" 7 ")
+                .input('7', ModItems.DEMIGENDER_INGOT)
+                .input('0', Items.NETHERITE_HELMET)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_HELMET,1)
+                .pattern(" 8 ")
+                .pattern("808")
+                .pattern(" 8 ")
+                .input('8', ModItems.GENDERFLUID_INGOT)
+                .input('0', Items.NETHERITE_HELMET)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_HELMET,1)
+                .pattern(" B ")
+                .pattern("B0B")
+                .pattern(" B ")
+                .input('B', ModItems.LESBIAN_INGOT)
+                .input('0', Items.NETHERITE_HELMET)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_HELMET,1)
+                .pattern(" G ")
+                .pattern("G0G")
+                .pattern(" G ")
+                .input('G', ModItems.MLM_INGOT)
+                .input('0', Items.NETHERITE_HELMET)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_HELMET,1)
+                .pattern(" H ")
+                .pattern("H0H")
+                .pattern(" H ")
+                .input('H', ModItems.NONBINARY_INGOT)
+                .input('0', Items.NETHERITE_HELMET)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_HELMET,1)
+                .pattern(" J ")
+                .pattern("J0J")
+                .pattern(" J ")
+                .input('J', ModItems.PAN_INGOT)
+                .input('0', Items.NETHERITE_HELMET)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_HELMET,1)
+                .pattern(" M ")
+                .pattern("M0M")
+                .pattern(" M ")
+                .input('M', ModItems.QUEER_INGOT)
+                .input('0', Items.NETHERITE_HELMET)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_HELMET,1)
+                .pattern(" O ")
+                .pattern("O0O")
+                .pattern(" O ")
+                .input('O', ModItems.TRANS_INGOT)
+                .input('0', Items.NETHERITE_HELMET)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        //================================================================================
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_CHESTPLATE,1)
+                .pattern(" 1 ")
+                .pattern("101")
+                .pattern(" 1 ")
+                .input('1', ModItems.AROACE_INGOT)
+                .input('0', Items.NETHERITE_HELMET)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_CHESTPLATE,1)
+                .pattern(" 3 ")
+                .pattern("303")
+                .pattern(" 3 ")
+                .input('3', ModItems.BI_INGOT)
+                .input('0', Items.NETHERITE_CHESTPLATE)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_CHESTPLATE,1)
+                .pattern(" 7 ")
+                .pattern("707")
+                .pattern(" 7 ")
+                .input('7', ModItems.DEMIGENDER_INGOT)
+                .input('0', Items.NETHERITE_CHESTPLATE)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_CHESTPLATE,1)
+                .pattern(" 8 ")
+                .pattern("808")
+                .pattern(" 8 ")
+                .input('8', ModItems.GENDERFLUID_INGOT)
+                .input('0', Items.NETHERITE_CHESTPLATE)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_CHESTPLATE,1)
+                .pattern(" B ")
+                .pattern("B0B")
+                .pattern(" B ")
+                .input('B', ModItems.LESBIAN_INGOT)
+                .input('0', Items.NETHERITE_CHESTPLATE)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_CHESTPLATE,1)
+                .pattern(" G ")
+                .pattern("G0G")
+                .pattern(" G ")
+                .input('G', ModItems.MLM_INGOT)
+                .input('0', Items.NETHERITE_CHESTPLATE)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_CHESTPLATE,1)
+                .pattern(" H ")
+                .pattern("H0H")
+                .pattern(" H ")
+                .input('H', ModItems.NONBINARY_INGOT)
+                .input('0', Items.NETHERITE_CHESTPLATE)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_CHESTPLATE,1)
+                .pattern(" J ")
+                .pattern("J0J")
+                .pattern(" J ")
+                .input('J', ModItems.PAN_INGOT)
+                .input('0', Items.NETHERITE_CHESTPLATE)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_CHESTPLATE,1)
+                .pattern(" M ")
+                .pattern("M0M")
+                .pattern(" M ")
+                .input('M', ModItems.QUEER_INGOT)
+                .input('0', Items.NETHERITE_CHESTPLATE)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_CHESTPLATE,1)
+                .pattern(" O ")
+                .pattern("O0O")
+                .pattern(" O ")
+                .input('O', ModItems.TRANS_INGOT)
+                .input('0', Items.NETHERITE_CHESTPLATE)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        //================================================================================
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_LEGGINGS,1)
+                .pattern(" 1 ")
+                .pattern("101")
+                .pattern(" 1 ")
+                .input('1', ModItems.AROACE_INGOT)
+                .input('0', Items.NETHERITE_LEGGINGS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_LEGGINGS,1)
+                .pattern(" 3 ")
+                .pattern("303")
+                .pattern(" 3 ")
+                .input('3', ModItems.BI_INGOT)
+                .input('0', Items.NETHERITE_LEGGINGS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_LEGGINGS,1)
+                .pattern(" 7 ")
+                .pattern("707")
+                .pattern(" 7 ")
+                .input('7', ModItems.DEMIGENDER_INGOT)
+                .input('0', Items.NETHERITE_LEGGINGS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_LEGGINGS,1)
+                .pattern(" 8 ")
+                .pattern("808")
+                .pattern(" 8 ")
+                .input('8', ModItems.GENDERFLUID_INGOT)
+                .input('0', Items.NETHERITE_LEGGINGS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_LEGGINGS,1)
+                .pattern(" B ")
+                .pattern("B0B")
+                .pattern(" B ")
+                .input('B', ModItems.LESBIAN_INGOT)
+                .input('0', Items.NETHERITE_LEGGINGS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_LEGGINGS,1)
+                .pattern(" G ")
+                .pattern("G0G")
+                .pattern(" G ")
+                .input('G', ModItems.MLM_INGOT)
+                .input('0', Items.NETHERITE_LEGGINGS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_LEGGINGS,1)
+                .pattern(" H ")
+                .pattern("H0H")
+                .pattern(" H ")
+                .input('H', ModItems.NONBINARY_INGOT)
+                .input('0', Items.NETHERITE_LEGGINGS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_LEGGINGS,1)
+                .pattern(" J ")
+                .pattern("J0J")
+                .pattern(" J ")
+                .input('J', ModItems.PAN_INGOT)
+                .input('0', Items.NETHERITE_LEGGINGS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_LEGGINGS,1)
+                .pattern(" M ")
+                .pattern("M0M")
+                .pattern(" M ")
+                .input('M', ModItems.QUEER_INGOT)
+                .input('0', Items.NETHERITE_LEGGINGS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_LEGGINGS,1)
+                .pattern(" O ")
+                .pattern("O0O")
+                .pattern(" O ")
+                .input('O', ModItems.TRANS_INGOT)
+                .input('0', Items.NETHERITE_LEGGINGS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        //================================================================================
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_BOOTS,1)
+                .pattern(" 1 ")
+                .pattern("101")
+                .pattern(" 1 ")
+                .input('1', ModItems.AROACE_INGOT)
+                .input('0', Items.NETHERITE_BOOTS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_BOOTS,1)
+                .pattern(" 3 ")
+                .pattern("303")
+                .pattern(" 3 ")
+                .input('3', ModItems.BI_INGOT)
+                .input('0', Items.NETHERITE_BOOTS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_BOOTS,1)
+                .pattern(" 7 ")
+                .pattern("707")
+                .pattern(" 7 ")
+                .input('7', ModItems.DEMIGENDER_INGOT)
+                .input('0', Items.NETHERITE_BOOTS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_BOOTS,1)
+                .pattern(" 8 ")
+                .pattern("808")
+                .pattern(" 8 ")
+                .input('8', ModItems.GENDERFLUID_INGOT)
+                .input('0', Items.NETHERITE_BOOTS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_BOOTS,1)
+                .pattern(" B ")
+                .pattern("B0B")
+                .pattern(" B ")
+                .input('B', ModItems.LESBIAN_INGOT)
+                .input('0', Items.NETHERITE_BOOTS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_BOOTS,1)
+                .pattern(" G ")
+                .pattern("G0G")
+                .pattern(" G ")
+                .input('G', ModItems.MLM_INGOT)
+                .input('0', Items.NETHERITE_BOOTS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_BOOTS,1)
+                .pattern(" H ")
+                .pattern("H0H")
+                .pattern(" H ")
+                .input('H', ModItems.NONBINARY_INGOT)
+                .input('0', Items.NETHERITE_BOOTS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_BOOTS,1)
+                .pattern(" J ")
+                .pattern("J0J")
+                .pattern(" J ")
+                .input('J', ModItems.PAN_INGOT)
+                .input('0', Items.NETHERITE_BOOTS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_BOOTS,1)
+                .pattern(" M ")
+                .pattern("M0M")
+                .pattern(" M ")
+                .input('M', ModItems.QUEER_INGOT)
+                .input('0', Items.NETHERITE_BOOTS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_BOOTS,1)
+                .pattern(" O ")
+                .pattern("O0O")
+                .pattern(" O ")
+                .input('O', ModItems.TRANS_INGOT)
+                .input('0', Items.NETHERITE_BOOTS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
     }
 }

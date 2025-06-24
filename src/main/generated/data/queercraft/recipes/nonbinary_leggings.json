@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "H": {
+      "item": "queercraft:nonbinary_ingot"
+    }
+  },
+  "pattern": [
+    " H ",
+    "H0H",
+    " H "
+  ],
+  "result": {
+    "item": "queercraft:nonbinary_leggings"
+  },
+  "show_notification": true
+}

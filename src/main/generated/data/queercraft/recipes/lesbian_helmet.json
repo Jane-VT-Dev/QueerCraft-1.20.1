@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_helmet"
+    },
+    "B": {
+      "item": "queercraft:lesbian_ingot"
+    }
+  },
+  "pattern": [
+    " B ",
+    "B0B",
+    " B "
+  ],
+  "result": {
+    "item": "queercraft:lesbian_helmet"
+  },
+  "show_notification": true
+}

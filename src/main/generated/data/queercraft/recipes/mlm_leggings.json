@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "G": {
+      "item": "queercraft:mlm_ingot"
+    }
+  },
+  "pattern": [
+    " G ",
+    "G0G",
+    " G "
+  ],
+  "result": {
+    "item": "queercraft:mlm_leggings"
+  },
+  "show_notification": true
+}

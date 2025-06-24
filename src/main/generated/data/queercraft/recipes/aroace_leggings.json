@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "1": {
+      "item": "queercraft:aroace_ingot"
+    }
+  },
+  "pattern": [
+    " 1 ",
+    "101",
+    " 1 "
+  ],
+  "result": {
+    "item": "queercraft:aroace_leggings"
+  },
+  "show_notification": true
+}

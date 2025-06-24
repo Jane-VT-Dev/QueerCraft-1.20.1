@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -135,5 +136,56 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PAN_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.QUEER_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TRANS_SWORD, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AROACE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AROACE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AROACE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AROACE_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BI_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BI_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BI_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BI_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.DEMIGENDER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.DEMIGENDER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.DEMIGENDER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.DEMIGENDER_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GENDERFLUID_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GENDERFLUID_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GENDERFLUID_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GENDERFLUID_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LESBIAN_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LESBIAN_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LESBIAN_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LESBIAN_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MLM_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MLM_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MLM_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MLM_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NONBINARY_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NONBINARY_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NONBINARY_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NONBINARY_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PAN_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PAN_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PAN_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PAN_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUEER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUEER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUEER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUEER_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TRANS_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TRANS_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TRANS_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TRANS_BOOTS));
+
     }
 }
