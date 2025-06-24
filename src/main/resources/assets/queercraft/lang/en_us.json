@@ -2,6 +2,7 @@
   "itemgroup.queercraft.ores": "§4Q§6u§ee§be§9r§dCra§5ft §f- Ores",
   "itemgroup.queercraft.tools": "§4Q§6u§ee§be§9r§dCra§5ft §f- Tools",
   "itemgroup.queercraft.weapons": "§4Q§6u§ee§be§9r§dCra§5ft §f- Weapons",
+  "itemgroup.queercraft.armor": "§4Q§6u§ee§be§9r§dCra§5ft §f- Armor",
 
 
   "item.queercraft.aroace_ingot": "Aroace Ingot",
@@ -119,5 +120,56 @@
   "block.queercraft.red_block": "Red Block",
   "block.queercraft.trans_block": "Trans Block",
   "block.queercraft.white_block": "White Block",
-  "block.queercraft.yellow_block": "Yellow Block"
+  "block.queercraft.yellow_block": "Yellow Block",
+
+  "item.queercraft.aroace_helmet" : "Aroace Helmet",
+  "item.queercraft.aroace_chestplate" : "Aroace Chestplate",
+  "item.queercraft.aroace_leggings" : "Aroace Leggings",
+  "item.queercraft.aroace_boots" : "Aroace Boots",
+
+  "item.queercraft.bi_helmet" : "Bi Helmet",
+  "item.queercraft.bi_chestplate" : "Bi Chestplate",
+  "item.queercraft.bi_leggings" : "Bi Leggings",
+  "item.queercraft.bi_boots" : "Bi Boots",
+
+  "item.queercraft.demigender_helmet" : "Demigender Helmet",
+  "item.queercraft.demigender_chestplate" : "Demigender Chestplate",
+  "item.queercraft.demigender_leggings" : "Demigender Leggings",
+  "item.queercraft.demigender_boots" : "Demigender Boots",
+
+  "item.queercraft.genderfluid_helmet" : "Genderfluid Helmet",
+  "item.queercraft.genderfluid_chestplate" : "Genderfluid Chestplate",
+  "item.queercraft.genderfluid_leggings" : "Genderfluid Leggings",
+  "item.queercraft.genderfluid_boots" : "Genderfluid Boots",
+
+  "item.queercraft.lesbian_helmet" : "Lesbian Helmet",
+  "item.queercraft.lesbian_chestplate" : "Lesbian Chestplate",
+  "item.queercraft.lesbian_leggings" : "Lesbian Leggings",
+  "item.queercraft.lesbian_boots" : "Lesbian Boots",
+
+  "item.queercraft.mlm_helmet" : "MLM Helmet",
+  "item.queercraft.mlm_chestplate" : "MLM Chestplate",
+  "item.queercraft.mlm_leggings" : "MLM Leggings",
+  "item.queercraft.mlm_boots" : "MLM Boots",
+
+  "item.queercraft.nonbinary_helmet" : "Nonbinary Helmet",
+  "item.queercraft.nonbinary_chestplate" : "Nonbinary Chestplate",
+  "item.queercraft.nonbinary_leggings" : "Nonbinary Leggings",
+  "item.queercraft.nonbinary_boots" : "Nonbinary Boots",
+
+  "item.queercraft.pan_helmet" : "Pan Helmet",
+  "item.queercraft.pan_chestplate" : "Pan Chestplate",
+  "item.queercraft.pan_leggings" : "Pan Leggings",
+  "item.queercraft.pan_boots" : "Pan Boots",
+
+  "item.queercraft.trans_helmet" : "Trans Helmet",
+  "item.queercraft.trans_chestplate" : "Trans Chestplate",
+  "item.queercraft.trans_leggings" : "Trans Leggings",
+  "item.queercraft.trans_boots" : "Trans Boots",
+
+  "item.queercraft.queer_helmet" : "Queer Helmet",
+  "item.queercraft.queer_chestplate" : "Queer Chestplate",
+  "item.queercraft.queer_leggings" : "Queer Leggings",
+  "item.queercraft.queer_boots" : "Queer Boots"
+
 }
