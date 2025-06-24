@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-23T21:46:31.8001775	Queer-Craft/Recipes
+// 1.20.1	2025-06-24T11:02:29.6915484	Queer-Craft/Recipes
 afbde6464afbe8417d1e533f584e9fd591b7e009 data\queercraft\advancements\recipes\tools\queer_sword.json
 c473cb369988fea9c67863d95596823b49149b13 data\queercraft\recipes\pan_ingot.json
 cd4a1c21897cab92dc5e04b5e45a54f4e0a85fd3 data\queercraft\recipes\light_gray_block.json
@@ -53,8 +53,8 @@ de45217094e56b7ea5c890335ad654e55e9aced8 data\queercraft\recipes\pan_sword.json
 e24492bd4405d2c1a7cf5b64795a21d2b950acc5 data\queercraft\recipes\demigender_pickaxe.json
 f5ee01200c3f878f7e29dc0cecb2b06c2b31df5d data\queercraft\recipes\nonbinary_sword.json
 6c83d0aff81467f9da4789179c58b0774bea1392 data\queercraft\recipes\aroace_axe.json
-e0dd7d9fa4cc477b4d7ff864ed4359262cd09e71 data\queercraft\advancements\recipes\misc\pan_ingot.json
 81135bbc58a52fa3c9ffb3cd752b4aa857beecfd data\queercraft\advancements\recipes\misc\lesbian_ingot.json
+e0dd7d9fa4cc477b4d7ff864ed4359262cd09e71 data\queercraft\advancements\recipes\misc\pan_ingot.json
 487b20934bc0bbd977c58144fcc5fd6fbaf50bd1 data\queercraft\advancements\recipes\tools\queer_shovel.json
 3a696f7d2bd6c4d1f02f08fd912b3f58058edac6 data\queercraft\advancements\recipes\tools\genderfluid_shovel.json
 d2e904b7a8f6fefb281958629e1617fdf0315f6a data\queercraft\recipes\bi_axe.json
@@ -79,8 +79,8 @@ bcec4934afab736caacfc11e7445e66bbea987b2 data\queercraft\advancements\recipes\to
 2a4657852250f8ba023c7789a9486b6cc72d1384 data\queercraft\advancements\recipes\tools\pan_pickaxe.json
 048f32b5b9f8569a2838c741c5c5afa035ab7ab4 data\queercraft\recipes\bi_hoe.json
 c3f8c666f587c186d9042a3cd6aea32fc2024ec6 data\queercraft\recipes\mlm_ingot.json
-692b4b042823c87f5aa6b9487204e38dbd8d5fde data\queercraft\recipes\light_blue_ingot.json
 5c7387f64f604bfbec956670a26c5d49141e4b92 data\queercraft\advancements\recipes\decorations\green_block.json
+692b4b042823c87f5aa6b9487204e38dbd8d5fde data\queercraft\recipes\light_blue_ingot.json
 750243ef4ace3af16826b46d7664571653acaaec data\queercraft\advancements\recipes\building_blocks\yellow_ingot.json
 4125045dce64cd0f8b1030fb462b89ecf61bdeab data\queercraft\recipes\queer_axe.json
 8f120513a8f72c0b2f6755afedb451d1fcb76f36 data\queercraft\recipes\demigender_sword.json

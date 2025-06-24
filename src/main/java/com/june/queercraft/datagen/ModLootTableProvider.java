@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.block.Block;
 import net.minecraft.data.server.loottable.BlockLootTableGenerator;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.loot.LootTable;
@@ -15,17 +16,23 @@ import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.RegistryWrapper;
+
+import java.util.concurrent.CompletableFuture;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
-    public ModLootTableProvider(FabricDataOutput dataOutput) {
+    public ModLootTableProvider(FabricDataOutput dataOutput, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup) {
         super(dataOutput);
     }
 
     @Override
     public void generate() {
 
+
         addDrop(ModBlocks.BROWN_STONE_ORE, brownOreDrops(ModBlocks.BROWN_STONE_ORE, ModItems.RAW_BROWN_ORE));
         addDrop(ModBlocks.BROWN_DEEPSLATE_ORE, brownOreDrops(ModBlocks.BROWN_DEEPSLATE_ORE, ModItems.RAW_BROWN_ORE));
+
         addDrop(ModBlocks.RAW_BROWN_ORE_BLOCK,ModBlocks.RAW_BROWN_ORE_BLOCK);
 
         addDrop(ModBlocks.AROACE_BLOCK,ModBlocks.AROACE_BLOCK);
@@ -61,7 +68,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
 
     }
-
     public LootTable.Builder brownOreDrops(Block drop, Item item) {
         return BlockLootTableGenerator.dropsWithSilkTouch(drop, (LootPoolEntry.Builder)this.applyExplosionDecay(drop,
                 ((LeafEntry.Builder)
@@ -72,4 +78,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                         .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
     }
 }
+
+
 

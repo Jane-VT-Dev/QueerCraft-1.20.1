@@ -5,38 +5,40 @@ import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
-    public enum ModToolMaterial implements ToolMaterial {
+import static com.june.queercraft.item.ModToolMaterialStats.*;
 
-        AROACE(4, 1000, 4.5f, 4.5f, 26,
+
+public enum ModToolMaterial implements ToolMaterial {
+
+        AROACE(common_mining_level, common_durability, common_mining_speed, common_attack_damage, common_enchantability,
                 () -> Ingredient.ofItems(ModItems.AROACE_INGOT)),
 
-        BI(4, 1000, 4.5f, 4.5f, 26,
+        BI(common_mining_level, common_durability, common_mining_speed, common_attack_damage, common_enchantability,
                 () -> Ingredient.ofItems(ModItems.BI_INGOT)),
 
-        DEMIGENDER(4, 1000, 4.5f, 4.5f, 26,
+        DEMIGENDER(common_mining_level, common_durability, common_mining_speed, common_attack_damage, common_enchantability,
                 () -> Ingredient.ofItems(ModItems.DEMIGENDER_INGOT)),
 
-        GENDERFLUID(4, 1000, 4.5f, 4.5f, 26,
+        GENDERFLUID(common_mining_level, common_durability, common_mining_speed, common_attack_damage, common_enchantability,
                 () -> Ingredient.ofItems(ModItems.GENDERFLUID_INGOT)),
 
-        LESBIAN(4, 1000, 4.5f, 4.5f, 26,
+        LESBIAN(common_mining_level, common_durability, common_mining_speed, common_attack_damage, common_enchantability,
                 () -> Ingredient.ofItems(ModItems.LESBIAN_INGOT)),
 
-        MLM(4, 1000, 4.5f, 4.5f, 26,
+        MLM(common_mining_level, common_durability, common_mining_speed, common_attack_damage, common_enchantability,
                 () -> Ingredient.ofItems(ModItems.MLM_INGOT)),
 
-        NONBINARY(4, 1000, 4.5f, 4.5f, 26,
+        NONBINARY(common_mining_level, common_durability, common_mining_speed, common_attack_damage, common_enchantability,
                 () -> Ingredient.ofItems(ModItems.NONBINARY_INGOT)),
 
-        PAN(4, 1000, 4.5f, 4.5f, 26,
+        PAN(common_mining_level, common_durability, common_mining_speed, common_attack_damage, common_enchantability,
                 () -> Ingredient.ofItems(ModItems.PAN_INGOT)),
 
-        QUEER(5, 1500, 11f, 5f, 26,
-                () -> Ingredient.ofItems(ModItems.QUEER_INGOT)),
+    TRANS(common_mining_level, common_durability, common_mining_speed, common_attack_damage, common_enchantability,
+            () -> Ingredient.ofItems(ModItems.TRANS_INGOT)),
 
-        TRANS(4, 1000, 4.5f, 4.5f, 26,
-                () -> Ingredient.ofItems(ModItems.TRANS_INGOT));
-
+        QUEER(queer_mining_level, queer_durability, queer_mining_speed, queer_attack_damage, queer_enchantability,
+                () -> Ingredient.ofItems(ModItems.QUEER_INGOT));
 
         private final int miningLevel;
         private final int itemDurability;
