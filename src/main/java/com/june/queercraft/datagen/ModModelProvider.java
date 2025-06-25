@@ -1,7 +1,7 @@
 package com.june.queercraft.datagen;
 
 import com.june.queercraft.block.ModBlocks;
-import com.june.queercraft.item.ModItems;
+import com.june.queercraft.item.*;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
@@ -82,110 +82,110 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.RAW_BROWN_ORE, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.AROACE_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.BI_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.DEMIGENDER_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.GENDERFLUID_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.LESBIAN_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.MLM_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.NONBINARY_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.PAN_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.QUEER_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.TRANS_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModPickaxes.AROACE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModPickaxes.BI_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModPickaxes.DEMIGENDER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModPickaxes.GENDERFLUID_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModPickaxes.LESBIAN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModPickaxes.MLM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModPickaxes.NONBINARY_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModPickaxes.PAN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModPickaxes.QUEER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModPickaxes.TRANS_PICKAXE, Models.HANDHELD);
 
-        itemModelGenerator.register(ModItems.AROACE_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.BI_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.DEMIGENDER_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.GENDERFLUID_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.LESBIAN_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.MLM_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.NONBINARY_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.PAN_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.QUEER_AXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.TRANS_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModAxes.AROACE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModAxes.BI_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModAxes.DEMIGENDER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModAxes.GENDERFLUID_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModAxes.LESBIAN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModAxes.MLM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModAxes.NONBINARY_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModAxes.PAN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModAxes.QUEER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModAxes.TRANS_AXE, Models.HANDHELD);
 
-        itemModelGenerator.register(ModItems.AROACE_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.BI_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.DEMIGENDER_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.GENDERFLUID_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.LESBIAN_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.MLM_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.NONBINARY_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.PAN_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.QUEER_SHOVEL, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.TRANS_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModShovels.AROACE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModShovels.BI_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModShovels.DEMIGENDER_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModShovels.GENDERFLUID_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModShovels.LESBIAN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModShovels.MLM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModShovels.NONBINARY_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModShovels.PAN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModShovels.QUEER_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModShovels.TRANS_SHOVEL, Models.HANDHELD);
 
-        itemModelGenerator.register(ModItems.AROACE_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.BI_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.DEMIGENDER_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.GENDERFLUID_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.LESBIAN_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.MLM_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.NONBINARY_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.PAN_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.QUEER_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.TRANS_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModHoes.AROACE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModHoes.BI_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModHoes.DEMIGENDER_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModHoes.GENDERFLUID_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModHoes.LESBIAN_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModHoes.MLM_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModHoes.NONBINARY_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModHoes.PAN_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModHoes.QUEER_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModHoes.TRANS_HOE, Models.HANDHELD);
 
-        itemModelGenerator.register(ModItems.AROACE_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.BI_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.DEMIGENDER_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.GENDERFLUID_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.LESBIAN_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.MLM_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.NONBINARY_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.PAN_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.QUEER_SWORD, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.TRANS_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModSwords.AROACE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModSwords.BI_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModSwords.DEMIGENDER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModSwords.GENDERFLUID_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModSwords.LESBIAN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModSwords.MLM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModSwords.NONBINARY_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModSwords.PAN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModSwords.QUEER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModSwords.TRANS_SWORD, Models.HANDHELD);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AROACE_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AROACE_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AROACE_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.AROACE_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.AROACE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.AROACE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.AROACE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.AROACE_BOOTS));
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BI_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BI_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BI_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.BI_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.BI_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.BI_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.BI_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.BI_BOOTS));
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.DEMIGENDER_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.DEMIGENDER_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.DEMIGENDER_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.DEMIGENDER_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.DEMIGENDER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.DEMIGENDER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.DEMIGENDER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.DEMIGENDER_BOOTS));
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GENDERFLUID_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GENDERFLUID_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GENDERFLUID_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GENDERFLUID_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.GENDERFLUID_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.GENDERFLUID_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.GENDERFLUID_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.GENDERFLUID_BOOTS));
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LESBIAN_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LESBIAN_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LESBIAN_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.LESBIAN_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.LESBIAN_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.LESBIAN_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.LESBIAN_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.LESBIAN_BOOTS));
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MLM_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MLM_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MLM_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MLM_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.MLM_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.MLM_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.MLM_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.MLM_BOOTS));
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NONBINARY_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NONBINARY_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NONBINARY_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NONBINARY_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.NONBINARY_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.NONBINARY_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.NONBINARY_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.NONBINARY_BOOTS));
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PAN_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PAN_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PAN_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PAN_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.PAN_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.PAN_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.PAN_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.PAN_BOOTS));
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUEER_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUEER_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUEER_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.QUEER_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.QUEER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.QUEER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.QUEER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.QUEER_BOOTS));
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TRANS_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TRANS_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TRANS_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TRANS_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.TRANS_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.TRANS_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.TRANS_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModArmors.TRANS_BOOTS));
 
     }
 }

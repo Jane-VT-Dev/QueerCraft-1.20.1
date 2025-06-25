@@ -1,7 +1,7 @@
 package com.june.queercraft.datagen;
 
 import com.june.queercraft.block.ModBlocks;
-import com.june.queercraft.item.ModItems;
+import com.june.queercraft.item.*;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
@@ -191,7 +191,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //================================================================================
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_PICKAXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModPickaxes.AROACE_PICKAXE,1)
                 .pattern(" 1 ")
                 .pattern("101")
                 .pattern(" 1 ")
@@ -200,7 +200,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_PICKAXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModPickaxes.BI_PICKAXE,1)
                 .pattern(" 3 ")
                 .pattern("303")
                 .pattern(" 3 ")
@@ -209,7 +209,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_PICKAXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModPickaxes.DEMIGENDER_PICKAXE,1)
                 .pattern(" 7 ")
                 .pattern("707")
                 .pattern(" 7 ")
@@ -218,7 +218,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_PICKAXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModPickaxes.GENDERFLUID_PICKAXE,1)
                 .pattern(" 8 ")
                 .pattern("808")
                 .pattern(" 8 ")
@@ -227,7 +227,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_PICKAXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModPickaxes.LESBIAN_PICKAXE,1)
                 .pattern(" B ")
                 .pattern("B0B")
                 .pattern(" B ")
@@ -236,7 +236,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_PICKAXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModPickaxes.MLM_PICKAXE,1)
                 .pattern(" G ")
                 .pattern("G0G")
                 .pattern(" G ")
@@ -245,7 +245,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_PICKAXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModPickaxes.NONBINARY_PICKAXE,1)
                 .pattern(" H ")
                 .pattern("H0H")
                 .pattern(" H ")
@@ -254,7 +254,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_PICKAXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModPickaxes.PAN_PICKAXE,1)
                 .pattern(" J ")
                 .pattern("J0J")
                 .pattern(" J ")
@@ -263,7 +263,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_PICKAXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModPickaxes.QUEER_PICKAXE,1)
                 .pattern(" M ")
                 .pattern("M0M")
                 .pattern(" M ")
@@ -272,7 +272,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_PICKAXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModPickaxes.TRANS_PICKAXE,1)
                 .pattern(" O ")
                 .pattern("O0O")
                 .pattern(" O ")
@@ -283,7 +283,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //================================================================================
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_SHOVEL,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModShovels.AROACE_SHOVEL,1)
                 .pattern(" 1 ")
                 .pattern("101")
                 .pattern(" 1 ")
@@ -292,7 +292,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_SHOVEL,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModShovels.BI_SHOVEL,1)
                 .pattern(" 3 ")
                 .pattern("303")
                 .pattern(" 3 ")
@@ -301,7 +301,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_SHOVEL,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModShovels.DEMIGENDER_SHOVEL,1)
                 .pattern(" 7 ")
                 .pattern("707")
                 .pattern(" 7 ")
@@ -310,7 +310,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_SHOVEL,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModShovels.GENDERFLUID_SHOVEL,1)
                 .pattern(" 8 ")
                 .pattern("808")
                 .pattern(" 8 ")
@@ -319,7 +319,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_SHOVEL,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModShovels.LESBIAN_SHOVEL,1)
                 .pattern(" B ")
                 .pattern("B0B")
                 .pattern(" B ")
@@ -328,7 +328,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_SHOVEL,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModShovels.MLM_SHOVEL,1)
                 .pattern(" G ")
                 .pattern("G0G")
                 .pattern(" G ")
@@ -337,7 +337,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_SHOVEL,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModShovels.NONBINARY_SHOVEL,1)
                 .pattern(" H ")
                 .pattern("H0H")
                 .pattern(" H ")
@@ -346,7 +346,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_SHOVEL,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModShovels.PAN_SHOVEL,1)
                 .pattern(" J ")
                 .pattern("J0J")
                 .pattern(" J ")
@@ -355,7 +355,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_SHOVEL,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModShovels.QUEER_SHOVEL,1)
                 .pattern(" M ")
                 .pattern("M0M")
                 .pattern(" M ")
@@ -364,7 +364,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_SHOVEL,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModShovels.TRANS_SHOVEL,1)
                 .pattern(" O ")
                 .pattern("O0O")
                 .pattern(" O ")
@@ -375,7 +375,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //================================================================================
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_AXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModAxes.AROACE_AXE,1)
                 .pattern(" 1 ")
                 .pattern("101")
                 .pattern(" 1 ")
@@ -384,7 +384,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_AXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModAxes.BI_AXE,1)
                 .pattern(" 3 ")
                 .pattern("303")
                 .pattern(" 3 ")
@@ -393,7 +393,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_AXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModAxes.DEMIGENDER_AXE,1)
                 .pattern(" 7 ")
                 .pattern("707")
                 .pattern(" 7 ")
@@ -402,7 +402,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_AXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModAxes.GENDERFLUID_AXE,1)
                 .pattern(" 8 ")
                 .pattern("808")
                 .pattern(" 8 ")
@@ -411,7 +411,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_AXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModAxes.LESBIAN_AXE,1)
                 .pattern(" B ")
                 .pattern("B0B")
                 .pattern(" B ")
@@ -420,7 +420,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_AXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModAxes.MLM_AXE,1)
                 .pattern(" G ")
                 .pattern("G0G")
                 .pattern(" G ")
@@ -429,7 +429,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_AXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModAxes.NONBINARY_AXE,1)
                 .pattern(" H ")
                 .pattern("H0H")
                 .pattern(" H ")
@@ -438,7 +438,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_AXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModAxes.PAN_AXE,1)
                 .pattern(" J ")
                 .pattern("J0J")
                 .pattern(" J ")
@@ -447,7 +447,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_AXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModAxes.QUEER_AXE,1)
                 .pattern(" M ")
                 .pattern("M0M")
                 .pattern(" M ")
@@ -456,7 +456,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_AXE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModAxes.TRANS_AXE,1)
                 .pattern(" O ")
                 .pattern("O0O")
                 .pattern(" O ")
@@ -467,7 +467,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //================================================================================
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_HOE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModHoes.AROACE_HOE,1)
                 .pattern(" 1 ")
                 .pattern("101")
                 .pattern(" 1 ")
@@ -476,7 +476,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_HOE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModHoes.BI_HOE,1)
                 .pattern(" 3 ")
                 .pattern("303")
                 .pattern(" 3 ")
@@ -485,7 +485,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_HOE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModHoes.DEMIGENDER_HOE,1)
                 .pattern(" 7 ")
                 .pattern("707")
                 .pattern(" 7 ")
@@ -494,7 +494,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_HOE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModHoes.GENDERFLUID_HOE,1)
                 .pattern(" 8 ")
                 .pattern("808")
                 .pattern(" 8 ")
@@ -503,7 +503,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_HOE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModHoes.LESBIAN_HOE,1)
                 .pattern(" B ")
                 .pattern("B0B")
                 .pattern(" B ")
@@ -512,7 +512,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_HOE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModHoes.MLM_HOE,1)
                 .pattern(" G ")
                 .pattern("G0G")
                 .pattern(" G ")
@@ -521,7 +521,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_HOE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModHoes.NONBINARY_HOE,1)
                 .pattern(" H ")
                 .pattern("H0H")
                 .pattern(" H ")
@@ -530,7 +530,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_HOE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModHoes.PAN_HOE,1)
                 .pattern(" J ")
                 .pattern("J0J")
                 .pattern(" J ")
@@ -539,7 +539,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_HOE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModHoes.QUEER_HOE,1)
                 .pattern(" M ")
                 .pattern("M0M")
                 .pattern(" M ")
@@ -548,7 +548,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_HOE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModHoes.TRANS_HOE,1)
                 .pattern(" O ")
                 .pattern("O0O")
                 .pattern(" O ")
@@ -559,7 +559,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //================================================================================
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_SWORD,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSwords.AROACE_SWORD,1)
                 .pattern(" 1 ")
                 .pattern("101")
                 .pattern(" 1 ")
@@ -568,7 +568,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_SWORD,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModSwords.BI_SWORD,1)
                 .pattern(" 3 ")
                 .pattern("303")
                 .pattern(" 3 ")
@@ -577,7 +577,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_SWORD,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSwords.DEMIGENDER_SWORD,1)
                 .pattern(" 7 ")
                 .pattern("707")
                 .pattern(" 7 ")
@@ -586,7 +586,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_SWORD,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSwords.GENDERFLUID_SWORD,1)
                 .pattern(" 8 ")
                 .pattern("808")
                 .pattern(" 8 ")
@@ -595,7 +595,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_SWORD,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSwords.LESBIAN_SWORD,1)
                 .pattern(" B ")
                 .pattern("B0B")
                 .pattern(" B ")
@@ -604,7 +604,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_SWORD,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSwords.MLM_SWORD,1)
                 .pattern(" G ")
                 .pattern("G0G")
                 .pattern(" G ")
@@ -613,7 +613,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_SWORD,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSwords.NONBINARY_SWORD,1)
                 .pattern(" H ")
                 .pattern("H0H")
                 .pattern(" H ")
@@ -622,7 +622,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_SWORD,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSwords.PAN_SWORD,1)
                 .pattern(" J ")
                 .pattern("J0J")
                 .pattern(" J ")
@@ -631,7 +631,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_SWORD,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSwords.QUEER_SWORD,1)
                 .pattern(" M ")
                 .pattern("M0M")
                 .pattern(" M ")
@@ -640,7 +640,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_SWORD,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSwords.TRANS_SWORD,1)
                 .pattern(" O ")
                 .pattern("O0O")
                 .pattern(" O ")
@@ -651,7 +651,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //================================================================================
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_HELMET,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.AROACE_HELMET,1)
                 .pattern(" 1 ")
                 .pattern("101")
                 .pattern(" 1 ")
@@ -660,7 +660,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_HELMET,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.BI_HELMET,1)
                 .pattern(" 3 ")
                 .pattern("303")
                 .pattern(" 3 ")
@@ -669,7 +669,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_HELMET,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.DEMIGENDER_HELMET,1)
                 .pattern(" 7 ")
                 .pattern("707")
                 .pattern(" 7 ")
@@ -678,7 +678,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_HELMET,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.GENDERFLUID_HELMET,1)
                 .pattern(" 8 ")
                 .pattern("808")
                 .pattern(" 8 ")
@@ -687,7 +687,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_HELMET,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.LESBIAN_HELMET,1)
                 .pattern(" B ")
                 .pattern("B0B")
                 .pattern(" B ")
@@ -696,7 +696,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_HELMET,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.MLM_HELMET,1)
                 .pattern(" G ")
                 .pattern("G0G")
                 .pattern(" G ")
@@ -705,7 +705,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_HELMET,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.NONBINARY_HELMET,1)
                 .pattern(" H ")
                 .pattern("H0H")
                 .pattern(" H ")
@@ -714,7 +714,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_HELMET,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.PAN_HELMET,1)
                 .pattern(" J ")
                 .pattern("J0J")
                 .pattern(" J ")
@@ -723,7 +723,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_HELMET,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.QUEER_HELMET,1)
                 .pattern(" M ")
                 .pattern("M0M")
                 .pattern(" M ")
@@ -732,7 +732,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_HELMET,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.TRANS_HELMET,1)
                 .pattern(" O ")
                 .pattern("O0O")
                 .pattern(" O ")
@@ -743,7 +743,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //================================================================================
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_CHESTPLATE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.AROACE_CHESTPLATE,1)
                 .pattern(" 1 ")
                 .pattern("101")
                 .pattern(" 1 ")
@@ -752,7 +752,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_CHESTPLATE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.BI_CHESTPLATE,1)
                 .pattern(" 3 ")
                 .pattern("303")
                 .pattern(" 3 ")
@@ -761,7 +761,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_CHESTPLATE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.DEMIGENDER_CHESTPLATE,1)
                 .pattern(" 7 ")
                 .pattern("707")
                 .pattern(" 7 ")
@@ -770,7 +770,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_CHESTPLATE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.GENDERFLUID_CHESTPLATE,1)
                 .pattern(" 8 ")
                 .pattern("808")
                 .pattern(" 8 ")
@@ -779,7 +779,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_CHESTPLATE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.LESBIAN_CHESTPLATE,1)
                 .pattern(" B ")
                 .pattern("B0B")
                 .pattern(" B ")
@@ -788,7 +788,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_CHESTPLATE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.MLM_CHESTPLATE,1)
                 .pattern(" G ")
                 .pattern("G0G")
                 .pattern(" G ")
@@ -797,7 +797,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_CHESTPLATE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.NONBINARY_CHESTPLATE,1)
                 .pattern(" H ")
                 .pattern("H0H")
                 .pattern(" H ")
@@ -806,7 +806,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_CHESTPLATE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.PAN_CHESTPLATE,1)
                 .pattern(" J ")
                 .pattern("J0J")
                 .pattern(" J ")
@@ -815,7 +815,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_CHESTPLATE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.QUEER_CHESTPLATE,1)
                 .pattern(" M ")
                 .pattern("M0M")
                 .pattern(" M ")
@@ -824,7 +824,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_CHESTPLATE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.TRANS_CHESTPLATE,1)
                 .pattern(" O ")
                 .pattern("O0O")
                 .pattern(" O ")
@@ -835,7 +835,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //================================================================================
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_LEGGINGS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.AROACE_LEGGINGS,1)
                 .pattern(" 1 ")
                 .pattern("101")
                 .pattern(" 1 ")
@@ -844,7 +844,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_LEGGINGS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.BI_LEGGINGS,1)
                 .pattern(" 3 ")
                 .pattern("303")
                 .pattern(" 3 ")
@@ -853,7 +853,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_LEGGINGS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.DEMIGENDER_LEGGINGS,1)
                 .pattern(" 7 ")
                 .pattern("707")
                 .pattern(" 7 ")
@@ -862,7 +862,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_LEGGINGS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.GENDERFLUID_LEGGINGS,1)
                 .pattern(" 8 ")
                 .pattern("808")
                 .pattern(" 8 ")
@@ -871,7 +871,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_LEGGINGS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.LESBIAN_LEGGINGS,1)
                 .pattern(" B ")
                 .pattern("B0B")
                 .pattern(" B ")
@@ -880,7 +880,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_LEGGINGS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.MLM_LEGGINGS,1)
                 .pattern(" G ")
                 .pattern("G0G")
                 .pattern(" G ")
@@ -889,7 +889,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_LEGGINGS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.NONBINARY_LEGGINGS,1)
                 .pattern(" H ")
                 .pattern("H0H")
                 .pattern(" H ")
@@ -898,7 +898,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_LEGGINGS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.PAN_LEGGINGS,1)
                 .pattern(" J ")
                 .pattern("J0J")
                 .pattern(" J ")
@@ -907,7 +907,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_LEGGINGS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.QUEER_LEGGINGS,1)
                 .pattern(" M ")
                 .pattern("M0M")
                 .pattern(" M ")
@@ -916,7 +916,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_LEGGINGS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.TRANS_LEGGINGS,1)
                 .pattern(" O ")
                 .pattern("O0O")
                 .pattern(" O ")
@@ -927,7 +927,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         //================================================================================
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.AROACE_BOOTS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.AROACE_BOOTS,1)
                 .pattern(" 1 ")
                 .pattern("101")
                 .pattern(" 1 ")
@@ -936,7 +936,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.BI_BOOTS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.BI_BOOTS,1)
                 .pattern(" 3 ")
                 .pattern("303")
                 .pattern(" 3 ")
@@ -945,7 +945,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.DEMIGENDER_BOOTS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.DEMIGENDER_BOOTS,1)
                 .pattern(" 7 ")
                 .pattern("707")
                 .pattern(" 7 ")
@@ -954,7 +954,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.GENDERFLUID_BOOTS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.GENDERFLUID_BOOTS,1)
                 .pattern(" 8 ")
                 .pattern("808")
                 .pattern(" 8 ")
@@ -963,7 +963,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.LESBIAN_BOOTS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.LESBIAN_BOOTS,1)
                 .pattern(" B ")
                 .pattern("B0B")
                 .pattern(" B ")
@@ -972,7 +972,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.MLM_BOOTS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.MLM_BOOTS,1)
                 .pattern(" G ")
                 .pattern("G0G")
                 .pattern(" G ")
@@ -981,7 +981,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.NONBINARY_BOOTS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.NONBINARY_BOOTS,1)
                 .pattern(" H ")
                 .pattern("H0H")
                 .pattern(" H ")
@@ -990,7 +990,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.PAN_BOOTS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.PAN_BOOTS,1)
                 .pattern(" J ")
                 .pattern("J0J")
                 .pattern(" J ")
@@ -999,7 +999,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.QUEER_BOOTS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.QUEER_BOOTS,1)
                 .pattern(" M ")
                 .pattern("M0M")
                 .pattern(" M ")
@@ -1008,7 +1008,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.TRANS_BOOTS,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModArmors.TRANS_BOOTS,1)
                 .pattern(" O ")
                 .pattern("O0O")
                 .pattern(" O ")

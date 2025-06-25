@@ -82,122 +82,122 @@ public class ModItemGroups {
     public static final ItemGroup QUEERCRAFT_ITEMS_TOOLS_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(QueerCraft.MOD_ID, "queer_pickaxe"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.queercraft.tools"))
-                    .icon(() -> new ItemStack(ModItems.QUEER_PICKAXE)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModPickaxes.QUEER_PICKAXE)).entries((displayContext, entries) -> {
 
-                    entries.add(ModItems.AROACE_PICKAXE);
-                    entries.add(ModItems.AROACE_AXE);
-                    entries.add(ModItems.AROACE_SHOVEL);
-                    entries.add(ModItems.AROACE_HOE);
-                    entries.add(ModItems.BI_PICKAXE);
-                    entries.add(ModItems.BI_AXE);
-                    entries.add(ModItems.BI_SHOVEL);
-                    entries.add(ModItems.BI_HOE);
-                    entries.add(ModItems.DEMIGENDER_PICKAXE);
-                    entries.add(ModItems.DEMIGENDER_AXE);
-                    entries.add(ModItems.DEMIGENDER_SHOVEL);
-                    entries.add(ModItems.DEMIGENDER_HOE);
-                    entries.add(ModItems.GENDERFLUID_PICKAXE);
-                    entries.add(ModItems.GENDERFLUID_AXE);
-                    entries.add(ModItems.GENDERFLUID_SHOVEL);
-                    entries.add(ModItems.GENDERFLUID_HOE);
-                    entries.add(ModItems.LESBIAN_PICKAXE);
-                    entries.add(ModItems.LESBIAN_AXE);
-                    entries.add(ModItems.LESBIAN_SHOVEL);
-                    entries.add(ModItems.LESBIAN_HOE);
-                    entries.add(ModItems.MLM_PICKAXE);
-                    entries.add(ModItems.MLM_AXE);
-                    entries.add(ModItems.MLM_SHOVEL);
-                    entries.add(ModItems.MLM_HOE);
-                    entries.add(ModItems.NONBINARY_PICKAXE);
-                    entries.add(ModItems.NONBINARY_AXE);
-                    entries.add(ModItems.NONBINARY_SHOVEL);
-                    entries.add(ModItems.NONBINARY_HOE);
-                    entries.add(ModItems.PAN_PICKAXE);
-                    entries.add(ModItems.PAN_AXE);
-                    entries.add(ModItems.PAN_SHOVEL);
-                    entries.add(ModItems.PAN_HOE);
-                    entries.add(ModItems.QUEER_PICKAXE);
-                    entries.add(ModItems.QUEER_AXE);
-                    entries.add(ModItems.QUEER_SHOVEL);
-                    entries.add(ModItems.QUEER_HOE);
-                    entries.add(ModItems.TRANS_PICKAXE);
-                    entries.add(ModItems.TRANS_AXE);
-                    entries.add(ModItems.TRANS_SHOVEL);
-                    entries.add(ModItems.TRANS_HOE);
+                    entries.add(ModPickaxes.AROACE_PICKAXE);
+                    entries.add(ModAxes.AROACE_AXE);
+                    entries.add(ModShovels.AROACE_SHOVEL);
+                    entries.add(ModHoes.AROACE_HOE);
+                    entries.add(ModPickaxes.BI_PICKAXE);
+                    entries.add(ModAxes.BI_AXE);
+                    entries.add(ModShovels.BI_SHOVEL);
+                    entries.add(ModHoes.BI_HOE);
+                    entries.add(ModPickaxes.DEMIGENDER_PICKAXE);
+                    entries.add(ModAxes.DEMIGENDER_AXE);
+                    entries.add(ModShovels.DEMIGENDER_SHOVEL);
+                    entries.add(ModHoes.DEMIGENDER_HOE);
+                    entries.add(ModPickaxes.GENDERFLUID_PICKAXE);
+                    entries.add(ModAxes.GENDERFLUID_AXE);
+                    entries.add(ModShovels.GENDERFLUID_SHOVEL);
+                    entries.add(ModHoes.GENDERFLUID_HOE);
+                    entries.add(ModPickaxes.LESBIAN_PICKAXE);
+                    entries.add(ModAxes.LESBIAN_AXE);
+                    entries.add(ModShovels.LESBIAN_SHOVEL);
+                    entries.add(ModHoes.LESBIAN_HOE);
+                    entries.add(ModPickaxes.MLM_PICKAXE);
+                    entries.add(ModAxes.MLM_AXE);
+                    entries.add(ModShovels.MLM_SHOVEL);
+                    entries.add(ModHoes.MLM_HOE);
+                    entries.add(ModPickaxes.NONBINARY_PICKAXE);
+                    entries.add(ModAxes.NONBINARY_AXE);
+                    entries.add(ModShovels.NONBINARY_SHOVEL);
+                    entries.add(ModHoes.NONBINARY_HOE);
+                    entries.add(ModPickaxes.PAN_PICKAXE);
+                    entries.add(ModAxes.PAN_AXE);
+                    entries.add(ModShovels.PAN_SHOVEL);
+                    entries.add(ModHoes.PAN_HOE);
+                    entries.add(ModPickaxes.QUEER_PICKAXE);
+                    entries.add(ModAxes.QUEER_AXE);
+                    entries.add(ModShovels.QUEER_SHOVEL);
+                    entries.add(ModHoes.QUEER_HOE);
+                    entries.add(ModPickaxes.TRANS_PICKAXE);
+                    entries.add(ModAxes.TRANS_AXE);
+                    entries.add(ModShovels.TRANS_SHOVEL);
+                    entries.add(ModHoes.TRANS_HOE);
 
                     }).build());
 
     public static final ItemGroup QUEERCRAFT_ITEMGROUP_WEAPONS = Registry.register(Registries.ITEM_GROUP,
             new Identifier(QueerCraft.MOD_ID, "queer_sword"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.queercraft.ores"))
-                    .icon(() -> new ItemStack(ModItems.QUEER_SWORD)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModSwords.QUEER_SWORD)).entries((displayContext, entries) -> {
 
-                        entries.add(ModItems.AROACE_SWORD);
-                        entries.add(ModItems.BI_SWORD);
-                        entries.add(ModItems.DEMIGENDER_SWORD);
-                        entries.add(ModItems.GENDERFLUID_SWORD);
-                        entries.add(ModItems.LESBIAN_SWORD);
-                        entries.add(ModItems.MLM_SWORD);
-                        entries.add(ModItems.NONBINARY_SWORD);
-                        entries.add(ModItems.PAN_SWORD);
-                        entries.add(ModItems.QUEER_SWORD);
-                        entries.add(ModItems.TRANS_SWORD);
+                        entries.add(ModSwords.AROACE_SWORD);
+                        entries.add(ModSwords.BI_SWORD);
+                        entries.add(ModSwords.DEMIGENDER_SWORD);
+                        entries.add(ModSwords.GENDERFLUID_SWORD);
+                        entries.add(ModSwords.LESBIAN_SWORD);
+                        entries.add(ModSwords.MLM_SWORD);
+                        entries.add(ModSwords.NONBINARY_SWORD);
+                        entries.add(ModSwords.PAN_SWORD);
+                        entries.add(ModSwords.QUEER_SWORD);
+                        entries.add(ModSwords.TRANS_SWORD);
 
                     }).build());
     public static final ItemGroup QUEERCRAFT_ITEMGROUP_ARMOR = Registry.register(Registries.ITEM_GROUP,
             new Identifier(QueerCraft.MOD_ID, "queer_chestplate"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.queercraft.armor"))
-                    .icon(() -> new ItemStack(ModItems.AROACE_CHESTPLATE)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModArmors.AROACE_CHESTPLATE)).entries((displayContext, entries) -> {
 
-                        entries.add(ModItems.AROACE_HELMET);
-                        entries.add(ModItems.AROACE_CHESTPLATE);
-                        entries.add(ModItems.AROACE_LEGGINGS);
-                        entries.add(ModItems.AROACE_BOOTS);
+                        entries.add(ModArmors.AROACE_HELMET);
+                        entries.add(ModArmors.AROACE_CHESTPLATE);
+                        entries.add(ModArmors.AROACE_LEGGINGS);
+                        entries.add(ModArmors.AROACE_BOOTS);
 
-                        entries.add(ModItems.BI_HELMET);
-                        entries.add(ModItems.BI_CHESTPLATE);
-                        entries.add(ModItems.BI_LEGGINGS);
-                        entries.add(ModItems.BI_BOOTS);
+                        entries.add(ModArmors.BI_HELMET);
+                        entries.add(ModArmors.BI_CHESTPLATE);
+                        entries.add(ModArmors.BI_LEGGINGS);
+                        entries.add(ModArmors.BI_BOOTS);
 
-                        entries.add(ModItems.DEMIGENDER_HELMET);
-                        entries.add(ModItems.DEMIGENDER_CHESTPLATE);
-                        entries.add(ModItems.DEMIGENDER_LEGGINGS);
-                        entries.add(ModItems.DEMIGENDER_BOOTS);
+                        entries.add(ModArmors.DEMIGENDER_HELMET);
+                        entries.add(ModArmors.DEMIGENDER_CHESTPLATE);
+                        entries.add(ModArmors.DEMIGENDER_LEGGINGS);
+                        entries.add(ModArmors.DEMIGENDER_BOOTS);
 
-                        entries.add(ModItems.GENDERFLUID_HELMET);
-                        entries.add(ModItems.GENDERFLUID_CHESTPLATE);
-                        entries.add(ModItems.GENDERFLUID_LEGGINGS);
-                        entries.add(ModItems.GENDERFLUID_BOOTS);
+                        entries.add(ModArmors.GENDERFLUID_HELMET);
+                        entries.add(ModArmors.GENDERFLUID_CHESTPLATE);
+                        entries.add(ModArmors.GENDERFLUID_LEGGINGS);
+                        entries.add(ModArmors.GENDERFLUID_BOOTS);
 
-                        entries.add(ModItems.LESBIAN_HELMET);
-                        entries.add(ModItems.LESBIAN_CHESTPLATE);
-                        entries.add(ModItems.LESBIAN_LEGGINGS);
-                        entries.add(ModItems.LESBIAN_BOOTS);
+                        entries.add(ModArmors.LESBIAN_HELMET);
+                        entries.add(ModArmors.LESBIAN_CHESTPLATE);
+                        entries.add(ModArmors.LESBIAN_LEGGINGS);
+                        entries.add(ModArmors.LESBIAN_BOOTS);
 
-                        entries.add(ModItems.MLM_HELMET);
-                        entries.add(ModItems.MLM_CHESTPLATE);
-                        entries.add(ModItems.MLM_LEGGINGS);
-                        entries.add(ModItems.MLM_BOOTS);
+                        entries.add(ModArmors.MLM_HELMET);
+                        entries.add(ModArmors.MLM_CHESTPLATE);
+                        entries.add(ModArmors.MLM_LEGGINGS);
+                        entries.add(ModArmors.MLM_BOOTS);
 
-                        entries.add(ModItems.NONBINARY_HELMET);
-                        entries.add(ModItems.NONBINARY_CHESTPLATE);
-                        entries.add(ModItems.NONBINARY_LEGGINGS);
-                        entries.add(ModItems.NONBINARY_BOOTS);
+                        entries.add(ModArmors.NONBINARY_HELMET);
+                        entries.add(ModArmors.NONBINARY_CHESTPLATE);
+                        entries.add(ModArmors.NONBINARY_LEGGINGS);
+                        entries.add(ModArmors.NONBINARY_BOOTS);
 
-                        entries.add(ModItems.PAN_HELMET);
-                        entries.add(ModItems.PAN_CHESTPLATE);
-                        entries.add(ModItems.PAN_LEGGINGS);
-                        entries.add(ModItems.PAN_BOOTS);
+                        entries.add(ModArmors.PAN_HELMET);
+                        entries.add(ModArmors.PAN_CHESTPLATE);
+                        entries.add(ModArmors.PAN_LEGGINGS);
+                        entries.add(ModArmors.PAN_BOOTS);
 
-                        entries.add(ModItems.QUEER_HELMET);
-                        entries.add(ModItems.QUEER_CHESTPLATE);
-                        entries.add(ModItems.QUEER_LEGGINGS);
-                        entries.add(ModItems.QUEER_BOOTS);
+                        entries.add(ModArmors.QUEER_HELMET);
+                        entries.add(ModArmors.QUEER_CHESTPLATE);
+                        entries.add(ModArmors.QUEER_LEGGINGS);
+                        entries.add(ModArmors.QUEER_BOOTS);
 
-                        entries.add(ModItems.TRANS_HELMET);
-                        entries.add(ModItems.TRANS_CHESTPLATE);
-                        entries.add(ModItems.TRANS_LEGGINGS);
-                        entries.add(ModItems.TRANS_BOOTS);
+                        entries.add(ModArmors.TRANS_HELMET);
+                        entries.add(ModArmors.TRANS_CHESTPLATE);
+                        entries.add(ModArmors.TRANS_LEGGINGS);
+                        entries.add(ModArmors.TRANS_BOOTS);
 
                     }).build());
 
