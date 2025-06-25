@@ -143,6 +143,7 @@ public class ModItemGroups {
                         entries.add(ModSwords.QUEER_SWORD);
                         entries.add(ModSwords.TRANS_SWORD);
                         entries.add(ModSpecialWeapons.SCYTHE);
+                        entries.add(ModSpecialWeapons.BONK_STICK);
 
                     }).build());
 
