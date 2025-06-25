@@ -25,5 +25,6 @@ public class QueerCraft implements ModInitializer {
 		ModShovels.registerModShovels();
 		ModHoes.registerModHoes();
 		ModArmors.registerModArmors();
+		ModSpecialWeapons.registerModWeapons();
 	}
 }

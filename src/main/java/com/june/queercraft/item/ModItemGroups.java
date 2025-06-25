@@ -129,7 +129,7 @@ public class ModItemGroups {
 
     public static final ItemGroup QUEERCRAFT_ITEMGROUP_WEAPONS = Registry.register(Registries.ITEM_GROUP,
             new Identifier(QueerCraft.MOD_ID, "queer_sword"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.queercraft.ores"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.queercraft.weapons"))
                     .icon(() -> new ItemStack(ModSwords.QUEER_SWORD)).entries((displayContext, entries) -> {
 
                         entries.add(ModSwords.AROACE_SWORD);
@@ -142,8 +142,10 @@ public class ModItemGroups {
                         entries.add(ModSwords.PAN_SWORD);
                         entries.add(ModSwords.QUEER_SWORD);
                         entries.add(ModSwords.TRANS_SWORD);
+                        entries.add(ModSpecialWeapons.SCYTHE);
 
                     }).build());
+
     public static final ItemGroup QUEERCRAFT_ITEMGROUP_ARMOR = Registry.register(Registries.ITEM_GROUP,
             new Identifier(QueerCraft.MOD_ID, "queer_chestplate"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.queercraft.armor"))

@@ -1,15 +1,11 @@
 package com.june.queercraft.item;
 
 import com.june.queercraft.QueerCraft;
-import com.june.queercraft.item.materials.ModArmorMaterials;
-import com.june.queercraft.item.materials.ModToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-
-import static net.minecraft.item.Items.register;
 
 public class ModItems {
 
