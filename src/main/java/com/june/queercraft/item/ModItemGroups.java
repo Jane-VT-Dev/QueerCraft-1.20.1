@@ -145,6 +145,7 @@ public class ModItemGroups {
                         entries.add(ModSpecialWeapons.SCYTHE);
                         entries.add(ModSpecialWeapons.BONK_STICK);
                         entries.add(ModSpecialWeapons.DAGGER);
+                        entries.add(ModSpecialWeapons.MOB_LAUNCHER);
 
                     }).build());
 

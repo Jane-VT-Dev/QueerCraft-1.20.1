@@ -21,9 +21,18 @@ public class ModSpecialWeapons {
     public static final Item DAGGER = registerSpecialWeapon("dagger",
             new DaggerItem(ModToolMaterial.QUEER, 1, -1f,new FabricItemSettings()));
 
+    public static final Item MOB_LAUNCHER = registerSpecialWeapon("mob_launcher",
+            new MobLauncherItem(new FabricItemSettings()));
+
+
+
+
+
+
     private static Item registerSpecialWeapon(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(QueerCraft.MOD_ID, name),item);
     }
+
 
     public static void registerModWeapons(){
         QueerCraft.LOGGER.info("Registering mod special weapons for " + QueerCraft.MOD_ID);
