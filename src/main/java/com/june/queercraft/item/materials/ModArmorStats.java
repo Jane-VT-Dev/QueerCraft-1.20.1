@@ -2,17 +2,17 @@ package com.june.queercraft.item.materials;
 
 public class ModArmorStats {
 
-public static final int common_helmet_armor = 2;
-public static final int common_chestplate_armor = 2;
-public static final int common_leggings_armor = 2;
+public static final int common_helmet_armor = 4;
+public static final int common_chestplate_armor = 8;
+public static final int common_leggings_armor = 4;
 public static final int common_boots_armor = 2;
 public static final int common_enchantability = 22;
 public static final float common_toughness = 2f;
 public static final float common_knockbackResistance = 0.1f;
 
-public static final int queer_helmet_armor = 4;
-public static final int queer_chestplate_armor = 4;
-public static final int queer_leggings_armor = 4;
+public static final int queer_helmet_armor = 5;
+public static final int queer_chestplate_armor = 10;
+public static final int queer_leggings_armor = 6;
 public static final int queer_boots_armor = 4;
 public static final int queer_enchantability = 22;
 public static final float queer_toughness = 3f;

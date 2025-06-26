@@ -170,6 +170,9 @@
   "item.queercraft.queer_helmet" : "Queer Helmet",
   "item.queercraft.queer_chestplate" : "Queer Chestplate",
   "item.queercraft.queer_leggings" : "Queer Leggings",
-  "item.queercraft.queer_boots" : "Queer Boots"
+  "item.queercraft.queer_boots" : "Queer Boots",
+  "item.queercraft.scythe" : "Scythe",
+  "item.queercraft.dagger" : "Dagger",
+  "item.queercraft.bonk_stick" : "Bonk Stick"
 
 }
