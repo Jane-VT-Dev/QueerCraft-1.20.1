@@ -5,11 +5,12 @@
       "item": "queercraft:brown_ingot"
     },
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:light_gray_dye"
     }
   ],
   "result": {
     "item": "queercraft:light_gray_ingot",
     "count": 1
-  }
+  },
+  "show_notification": true
 }

@@ -6,12 +6,9 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
-import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.SmeltingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 
-import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -1014,6 +1011,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern(" O ")
                 .input('O', ModItems.TRANS_INGOT)
                 .input('0', Items.NETHERITE_BOOTS)
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSpecialWeapons.SCYTHE,1)
+                .pattern(" 0 ")
+                .pattern("OS ")
+                .pattern(" S ")
+                .input('O', ModItems.TRANS_INGOT)
+                .input('0', Items.NETHERITE_SWORD)
+                .input('S',Items.STICK)
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
 

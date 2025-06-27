@@ -11,5 +11,6 @@
   "result": {
     "item": "queercraft:black_ingot",
     "count": 1
-  }
+  },
+  "show_notification": true
 }

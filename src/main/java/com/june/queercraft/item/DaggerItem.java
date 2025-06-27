@@ -25,9 +25,7 @@ public class DaggerItem extends SwordItem {
 
         user.attack(entity);
         entity.damage(user.getDamageSources().generic(),getAttackDamage()*2);
-        user.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE,30,10,false,false,false));
-        user.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS,30,10,false,false,false));
-
+        user.getItemCooldownManager().set(ModSpecialWeapons.DAGGER,30);
         return SUCCESS;
     }
 }

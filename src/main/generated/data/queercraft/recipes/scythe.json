@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_sword"
+    },
+    "O": {
+      "item": "queercraft:trans_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " 0 ",
+    "OS ",
+    " S "
+  ],
+  "result": {
+    "item": "queercraft:scythe"
+  },
+  "show_notification": true
+}

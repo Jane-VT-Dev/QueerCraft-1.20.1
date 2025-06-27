@@ -8,5 +8,6 @@
     "result": {
         "item": "queercraft:bi_ingot",
         "count": 9
-    }
+    },
+    "show_notification": true
 }

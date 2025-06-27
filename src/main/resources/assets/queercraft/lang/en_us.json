@@ -173,6 +173,8 @@
   "item.queercraft.queer_boots" : "Queer Boots",
   "item.queercraft.scythe" : "Scythe",
   "item.queercraft.dagger" : "Dagger",
-  "item.queercraft.bonk_stick" : "Bonk Stick"
+  "item.queercraft.bonk_stick" : "Bonk Stick",
+  "item.queercraft.lance" : "Lance",
+  "item.queercraft.j_s_lance" : "June's Lance"
 
 }

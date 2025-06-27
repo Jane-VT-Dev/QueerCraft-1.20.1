@@ -44,6 +44,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WHITE_INGOT);
                         entries.add(ModItems.YELLOW_INGOT);
 
+                        entries.add(ModItems.RAW_BROWN_ORE);
                         entries.add(ModBlocks.BROWN_STONE_ORE);
                         entries.add(ModBlocks.BROWN_DEEPSLATE_ORE);
                         entries.add(ModBlocks.RAW_BROWN_ORE_BLOCK);
@@ -145,7 +146,8 @@ public class ModItemGroups {
                         entries.add(ModSpecialWeapons.SCYTHE);
                         entries.add(ModSpecialWeapons.BONK_STICK);
                         entries.add(ModSpecialWeapons.DAGGER);
-                        entries.add(ModSpecialWeapons.MOB_LAUNCHER);
+                        entries.add(ModSpecialWeapons.LANCE);
+                        entries.add(ModSpecialWeapons.J_S_LANCE);
 
                     }).build());
 

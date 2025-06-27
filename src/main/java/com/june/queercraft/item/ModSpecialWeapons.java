@@ -8,6 +8,7 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModSpecialWeapons {
 
@@ -21,8 +22,12 @@ public class ModSpecialWeapons {
     public static final Item DAGGER = registerSpecialWeapon("dagger",
             new DaggerItem(ModToolMaterial.QUEER, 1, -1f,new FabricItemSettings()));
 
-    public static final Item MOB_LAUNCHER = registerSpecialWeapon("mob_launcher",
-            new MobLauncherItem(new FabricItemSettings()));
+    public static final Item J_S_LANCE = registerSpecialWeapon("j_s_lance",
+            new LanceItem(new FabricItemSettings().maxCount(1).rarity(Rarity.EPIC)));
+
+
+    public static final Item LANCE = registerSpecialWeapon("lance",
+            new LanceItem(new FabricItemSettings().maxCount(1).rarity(Rarity.COMMON)));
 
 
 
