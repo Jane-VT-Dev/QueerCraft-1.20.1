@@ -5,7 +5,10 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+
+import java.util.List;
 
 public class ModItems {
 
@@ -37,6 +40,8 @@ public class ModItems {
     public static final Item YELLOW_INGOT = registerItem("yellow_ingot",new Item(new FabricItemSettings()));
 
     public static final Item RAW_BROWN_ORE = registerItem("raw_brown_ore",new Item(new FabricItemSettings()));
+
+    public static final Item QUEER_SMITHING_TEMPLATE = registerItem("queer_smithing_template",QueerSmithingTemplate.createQueerUpgrade());
 
     //================================================================================
 

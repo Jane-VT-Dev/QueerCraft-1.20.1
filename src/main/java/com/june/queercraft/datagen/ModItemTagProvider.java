@@ -130,6 +130,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModHoes.QUEER_HOE)
                 .add(ModHoes.TRANS_HOE);
 
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.QUEER_SMITHING_TEMPLATE);
 
     }
 }
