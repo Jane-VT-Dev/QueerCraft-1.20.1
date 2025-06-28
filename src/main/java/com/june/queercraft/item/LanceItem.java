@@ -52,6 +52,7 @@ public class LanceItem extends Item {
                     user.damage(user.getDamageSources().generic(), 2);
                     user.getItemCooldownManager().set(ModSpecialWeapons.LANCE,100);
                     user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 50, 10, false, false, false));
+
         }
 
         return super.use(world, user, hand);

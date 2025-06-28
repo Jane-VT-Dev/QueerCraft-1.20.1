@@ -23,9 +23,14 @@ public class DaggerItem extends SwordItem {
     @Override
     public ActionResult useOnEntity(ItemStack stack, PlayerEntity user, LivingEntity entity, Hand hand) {
 
-        user.attack(entity);
-        entity.damage(user.getDamageSources().generic(),getAttackDamage()*2);
-        user.getItemCooldownManager().set(ModSpecialWeapons.DAGGER,30);
+
+        if (!user.getItemCooldownManager().isCoolingDown(ModSpecialWeapons.DAGGER)){
+            user.attack(entity);
+            entity.damage(user.getDamageSources().generic(),getAttackDamage()*2);
+            user.getItemCooldownManager().set(ModSpecialWeapons.DAGGER,30);
+            
+        }
+
         return SUCCESS;
     }
 }

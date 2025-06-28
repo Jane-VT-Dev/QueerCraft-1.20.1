@@ -13,7 +13,7 @@ import net.minecraft.util.Rarity;
 public class ModSpecialWeapons {
 
     public static final Item SCYTHE = registerSpecialWeapon("scythe",
-            new SwordItem(ModToolMaterial.QUEER, 12, -3f,new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.QUEER, 12, -3.7f,new FabricItemSettings()));
 
     public static final Item BONK_STICK = registerSpecialWeapon("bonk_stick",
             new BonkStickItem(new FabricItemSettings().maxCount(1)));

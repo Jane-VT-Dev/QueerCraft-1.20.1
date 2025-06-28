@@ -187,7 +187,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModArmors.TRANS_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModArmors.TRANS_BOOTS));
 
-        itemModelGenerator.register(ModSpecialWeapons.SCYTHE,Models.HANDHELD);
         itemModelGenerator.register(ModSpecialWeapons.BONK_STICK,Models.HANDHELD);
         itemModelGenerator.register(ModSpecialWeapons.DAGGER,Models.HANDHELD);
 
