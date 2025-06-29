@@ -4,10 +4,10 @@
     "item": "queercraft:mlm_ingot"
   },
   "base": {
-    "item": "minecraft:netherite_axe"
+    "item": "minecraft:netherite_pickaxe"
   },
   "result": {
-    "item": "queercraft:mlm_axe"
+    "item": "queercraft:mlm_pickaxe"
   },
   "template": {
     "item": "queercraft:queer_smithing_template"

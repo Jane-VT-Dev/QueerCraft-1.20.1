@@ -4,7 +4,7 @@
     "item": "queercraft:aroace_ingot"
   },
   "base": {
-    "item": "minecraft:netherite_pickaxee"
+    "item": "minecraft:netherite_pickaxe"
   },
   "result": {
     "item": "queercraft:aroace_pickaxe"

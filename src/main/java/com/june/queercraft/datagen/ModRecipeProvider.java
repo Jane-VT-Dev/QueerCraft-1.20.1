@@ -12,6 +12,7 @@ import net.minecraft.item.Items;
 import net.minecraft.item.SmithingTemplateItem;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.SmithingRecipe;
+import net.minecraft.recipe.SmithingTransformRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 
 import java.util.function.Consumer;
@@ -203,6 +204,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S',Items.STICK)
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
+
 
     }
 }

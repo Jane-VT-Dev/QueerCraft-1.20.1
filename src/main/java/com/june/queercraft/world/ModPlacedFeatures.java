@@ -25,11 +25,11 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, BROWN_STONE_ORE_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BROWN_STONE_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(6,
+                ModOrePlacement.modifiersWithCount(3,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(80))));
 
         register(context, BROWN_DEEPSLATE_ORE_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BROWN_DEEPSLATE_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(7,
+                ModOrePlacement.modifiersWithCount(5,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(80))));
 
     }
