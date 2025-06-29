@@ -148,6 +148,7 @@ public class ModItemGroups {
                         entries.add(ModSpecialWeapons.DAGGER);
                         entries.add(ModSpecialWeapons.LANCE);
                         entries.add(ModSpecialWeapons.J_S_LANCE);
+                        entries.add(ModSpecialWeapons.MAGIC_WAND);
 
                     }).build());
 

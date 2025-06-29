@@ -30,14 +30,13 @@ public class ModSpecialWeapons {
             new LanceItem(new FabricItemSettings().maxCount(1).rarity(Rarity.COMMON)));
 
 
-
+    public static final Item MAGIC_WAND = registerSpecialWeapon("magic_wand",new MagicWandItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON)));
 
 
 
     private static Item registerSpecialWeapon(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(QueerCraft.MOD_ID, name),item);
     }
-
 
     public static void registerModWeapons(){
         QueerCraft.LOGGER.info("Registering mod special weapons for " + QueerCraft.MOD_ID);
