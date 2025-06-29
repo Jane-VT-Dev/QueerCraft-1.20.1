@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "queercraft:nonbinary_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "result": {
+    "item": "queercraft:nonbinary_hoe"
+  },
+  "template": {
+    "item": "queercraft:queer_smithing_template"
+  }
+}
