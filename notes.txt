@@ -1,4 +1,4 @@
-- only Raw ore ==> one Ore Block (one for Stone and one for Deepslate)
+temm- only Raw ore ==> one Ore Block (one for Stone and one for Deepslate)
 - 26 total different ingots
 
 

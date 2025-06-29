@@ -208,6 +208,15 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup QUEERCRAFT_ITEMGROUP_TEMPLATES = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(QueerCraft.MOD_ID, "queer_smithing_template"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.queercraft.smithing_template"))
+                    .icon(() -> new ItemStack(ModItems.QUEER_SMITHING_TEMPLATE)).entries((displayContext, entries) -> {
+
+                        entries.add(ModItems.QUEER_SMITHING_TEMPLATE);
+
+                    }).build());
+
                         public static void registerItemGroups() {
         QueerCraft.LOGGER.info("Registering Item Groups for " + QueerCraft.MOD_ID);
     }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "queercraft:queer_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "item": "queercraft:queer_helmet"
+  },
+  "template": {
+    "item": "queercraft:queer_smithing_template"
+  }
+}
