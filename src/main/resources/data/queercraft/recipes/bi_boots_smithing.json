@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "queercraft:bi_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "result": {
+    "item": "queercraft:bi_boots"
+  },
+  "template": {
+    "item": "queercraft:queer_smithing_template"
+  }
+}

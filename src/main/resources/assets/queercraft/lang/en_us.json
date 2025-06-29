@@ -3,7 +3,7 @@
   "itemgroup.queercraft.tools": "§4Q§6u§ee§be§9r§dCra§5ft §f- Tools",
   "itemgroup.queercraft.weapons": "§4Q§6u§ee§be§9r§dCra§5ft §f- Weapons",
   "itemgroup.queercraft.armor": "§4Q§6u§ee§be§9r§dCra§5ft §f- Armor",
-
+  "itemgroup.queercraft.other": "§4Q§6u§ee§be§9r§dCra§5ft §f- Other",
 
   "item.queercraft.aroace_ingot": "Aroace Ingot",
   "item.queercraft.brown_ingot": "Brown ingot",
@@ -175,6 +175,11 @@
   "item.queercraft.dagger" : "Dagger",
   "item.queercraft.bonk_stick" : "Bonk Stick",
   "item.queercraft.lance" : "Lance",
-  "item.queercraft.j_s_lance" : "June's Lance"
+  "item.queercraft.j_s_lance" : "June's Lance",
+
+  "itemgroup.queercraft.smithing_template": "Ingredients",
+  "upgrade.minecraft.queer_upgrade": "Queer Upgrade",
+  "item.minecraft.smithing_template.queer_upgrade.applies_to": "Netherite Equipment",
+  "item.minecraft.smithing_template.queer_upgrade.ingredients": "Aroace || Bi || Demigender || Genderfluid || Lesbian || MLM || Nonbinary || Pan || Trans || Queer - Ingots"
 
 }

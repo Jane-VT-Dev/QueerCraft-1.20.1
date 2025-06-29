@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "queercraft:mlm_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "result": {
+    "item": "queercraft:mlm_axe"
+  },
+  "template": {
+    "item": "queercraft:queer_smithing_template"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "queercraft:aroace_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "queercraft:aroace_sword"
+  },
+  "template": {
+    "item": "queercraft:queer_smithing_template"
+  }
+}

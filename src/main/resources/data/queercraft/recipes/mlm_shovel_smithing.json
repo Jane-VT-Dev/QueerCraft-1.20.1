@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "queercraft:mlm_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "result": {
+    "item": "queercraft:mlm_shovel"
+  },
+  "template": {
+    "item": "queercraft:queer_smithing_template"
+  }
+}
