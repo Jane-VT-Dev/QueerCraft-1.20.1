@@ -244,6 +244,29 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
 
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSpecialWeapons.FRYING_PAN,1)
+                .pattern("  O")
+                .pattern(" 0 ")
+                .pattern("   ")
+                .input('O', Items.IRON_BLOCK)
+                .input('0', Items.STICK)
+
+                .criterion(hasItem(Items.IRON_BLOCK),conditionsFromItem(Items.IRON_BLOCK))
+                .offerTo(exporter);
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModPickaxes.DRILL,1)
+                .pattern("  O")
+                .pattern(" 0 ")
+                .pattern("I  ")
+                .input('O', Items.IRON_BLOCK)
+                .input('I', Items.IRON_PICKAXE)
+                .input('0', Items.STICK)
+
+                .criterion(hasItem(Items.IRON_BLOCK),conditionsFromItem(Items.IRON_BLOCK))
+                .offerTo(exporter);
+
+
 
     }
 }

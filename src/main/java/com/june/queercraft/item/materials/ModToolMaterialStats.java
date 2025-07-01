@@ -13,4 +13,5 @@ public class ModToolMaterialStats {
     public static float queer_mining_speed = 11f;
     public static float queer_attack_damage = 5f;
     public static int queer_enchantability = 24;
+
 }

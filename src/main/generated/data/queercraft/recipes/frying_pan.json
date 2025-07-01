@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    "  O",
+    " 0 ",
+    "   "
+  ],
+  "result": {
+    "item": "queercraft:frying_pan"
+  },
+  "show_notification": true
+}

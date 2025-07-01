@@ -126,6 +126,8 @@ public class ModItemGroups {
                     entries.add(ModShovels.TRANS_SHOVEL);
                     entries.add(ModHoes.TRANS_HOE);
 
+                    entries.add(ModPickaxes.DRILL);
+
                     }).build());
 
     public static final ItemGroup QUEERCRAFT_ITEMGROUP_WEAPONS = Registry.register(Registries.ITEM_GROUP,
@@ -149,6 +151,7 @@ public class ModItemGroups {
                         entries.add(ModSpecialWeapons.LANCE);
                         entries.add(ModSpecialWeapons.J_S_LANCE);
                         entries.add(ModSpecialWeapons.MAGIC_WAND);
+                        entries.add(ModSpecialWeapons.FRYING_PAN);
 
                     }).build());
 

@@ -5,6 +5,8 @@ import com.june.queercraft.item.materials.ModToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.ToolMaterials;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -42,7 +44,7 @@ public class ModPickaxes {
     public static final Item TRANS_PICKAXE = registerPickaxe("trans_pickaxe",
             new PickaxeItem(ModToolMaterial.TRANS, 1, -2.8f, new FabricItemSettings()));
 
-
+    public static final Item DRILL = registerPickaxe("drill",new DrillToolItem(new FabricItemSettings().maxDamage(1000)));
 
     private static Item registerPickaxe(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(QueerCraft.MOD_ID, name),item);

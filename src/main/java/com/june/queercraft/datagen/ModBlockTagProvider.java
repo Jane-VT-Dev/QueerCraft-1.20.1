@@ -78,5 +78,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                     .add(ModBlocks.TRANS_BLOCK)
                     .add(ModBlocks.WHITE_BLOCK)
                     .add(ModBlocks.YELLOW_BLOCK);
+
+
     }
 }

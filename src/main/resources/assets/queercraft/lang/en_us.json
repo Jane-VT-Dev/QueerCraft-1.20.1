@@ -177,6 +177,8 @@
   "item.queercraft.lance" : "Lance",
   "item.queercraft.j_s_lance" : "June's Lance",
   "item.queercraft.magic_wand" : "Magic Wand",
+  "item.queercraft.frying_pan" : "Frying Pan",
+  "item.queercraft.drill" : "Drill",
 
   "itemgroup.queercraft.smithing_template": "Ingredients",
   "upgrade.minecraft.queer_upgrade": "Queer Upgrade",

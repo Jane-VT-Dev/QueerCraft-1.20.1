@@ -68,6 +68,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModShovels.TRANS_SHOVEL)
                 .add(ModHoes.TRANS_HOE);
 
+
+
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModSwords.AROACE_SWORD)
                 .add(ModSwords.BI_SWORD)
@@ -133,5 +135,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
                 .add(ModItems.QUEER_SMITHING_TEMPLATE);
 
+
+
     }
+
+
 }

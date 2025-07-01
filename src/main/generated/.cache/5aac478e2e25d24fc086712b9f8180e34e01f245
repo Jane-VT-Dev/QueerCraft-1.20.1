@@ -1,9 +1,9 @@
-// 1.20.1	2025-07-01T10:24:05.8946504	QueerCraft/Block Loot Tables
+// 1.20.1	2025-07-01T19:29:26.2586157	QueerCraft/Block Loot Tables
 8c95ee8891424d1fa2c7161d7cc596ca1e6176bd data\queercraft\loot_tables\blocks\bi_block.json
 2e13ae8d7fecf6ce8fa42ce54401d810454ba893 data\queercraft\loot_tables\blocks\demigender_block.json
 6aba5885ad9af03e211c5341fd64f9e32c76154d data\queercraft\loot_tables\blocks\lesbian_block.json
-cd12ff0f6fe76f33d3b4c90a6d96270f8292b1ff data\queercraft\loot_tables\blocks\light_blue_block.json
 1a43585d44c038565f1aad709b2b62af5cc4da42 data\queercraft\loot_tables\blocks\lime_block.json
+cd12ff0f6fe76f33d3b4c90a6d96270f8292b1ff data\queercraft\loot_tables\blocks\light_blue_block.json
 829741a0bd40099b8761f7b116a52c4a2468be06 data\queercraft\loot_tables\blocks\green_block.json
 496a40b80deb6a7cd70f54f98780c44c0331194e data\queercraft\loot_tables\blocks\trans_block.json
 08df4228dda2e18cfbc5ff28e8dc14939d2d7d58 data\queercraft\loot_tables\blocks\light_gray_block.json

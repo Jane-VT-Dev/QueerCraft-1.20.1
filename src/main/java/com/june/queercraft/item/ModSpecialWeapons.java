@@ -34,6 +34,10 @@ public class ModSpecialWeapons {
             new MagicWandItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON)));
 
 
+    public static final Item FRYING_PAN = registerSpecialWeapon("frying_pan",
+            new FryingPanItem(ModToolMaterial.QUEER, 0, -3f,new FabricItemSettings()));
+
+
 
 
 
