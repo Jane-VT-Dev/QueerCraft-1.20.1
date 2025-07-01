@@ -195,6 +195,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         //================================================================================
 
 
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSpecialWeapons.SCYTHE,1)
                 .pattern(" 0 ")
                 .pattern("OS ")
@@ -204,6 +205,44 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S',Items.STICK)
                 .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
                 .offerTo(exporter);
+
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.QUEER_SMITHING_TEMPLATE,1)
+                .pattern("DDD")
+                .pattern("DTD")
+                .pattern("DDD")
+                .input('D', Items.DIAMOND)
+                .input('T', ModItems.QUEER_SMITHING_TEMPLATE)
+
+                .criterion(hasItem(ModItems.QUEER_SMITHING_TEMPLATE),conditionsFromItem(ModItems.QUEER_SMITHING_TEMPLATE))
+                .offerTo(exporter);
+
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSpecialWeapons.MAGIC_WAND,1)
+                .pattern("  O")
+                .pattern(" 0 ")
+                .pattern("S  ")
+                .input('O', ModItems.TRANS_INGOT)
+                .input('0', Items.TRIDENT)
+                .input('S',Items.NETHER_STAR)
+
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
+        
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSpecialWeapons.BONK_STICK,1)
+                .pattern("  O")
+                .pattern(" 0 ")
+                .pattern("   ")
+                .input('O', ModItems.BROWN_INGOT)
+                .input('0', Items.STICK)
+
+                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .offerTo(exporter);
+
 
 
     }

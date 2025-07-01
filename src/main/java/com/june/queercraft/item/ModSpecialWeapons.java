@@ -30,7 +30,11 @@ public class ModSpecialWeapons {
             new LanceItem(new FabricItemSettings().maxCount(1).rarity(Rarity.COMMON)));
 
 
-    public static final Item MAGIC_WAND = registerSpecialWeapon("magic_wand",new MagicWandItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON)));
+    public static final Item MAGIC_WAND = registerSpecialWeapon("magic_wand",
+            new MagicWandItem(new FabricItemSettings().maxCount(1).rarity(Rarity.UNCOMMON)));
+
+
+
 
 
 

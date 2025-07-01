@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:trident"
+    },
+    "O": {
+      "item": "queercraft:trans_ingot"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "  O",
+    " 0 ",
+    "S  "
+  ],
+  "result": {
+    "item": "queercraft:magic_wand"
+  },
+  "show_notification": true
+}

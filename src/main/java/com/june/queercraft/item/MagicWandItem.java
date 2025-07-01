@@ -28,15 +28,13 @@ public class MagicWandItem extends Item {
         lightningBolt.setPosition(user.raycast(20,1,false).getPos());
 
         if (!user.getItemCooldownManager().isCoolingDown(ModSpecialWeapons.MAGIC_WAND)) {
-            if (user.getHealth() > 4) {
 
                 user.setHealth(user.getHealth() - 6);
                 world.spawnEntity(lightningBolt);
                 user.getItemCooldownManager().set(ModSpecialWeapons.MAGIC_WAND, 300);
 
-            }else
-                user.playSound(SoundEvents.BLOCK_BAMBOO_WOOD_BUTTON_CLICK_OFF,SoundCategory.PLAYERS,0.5f,0.1f);
-        }
+            }
+
 
         return TypedActionResult.success(user.getStackInHand(hand));
     }

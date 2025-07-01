@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "queercraft:brown_ingot"
+    }
+  },
+  "pattern": [
+    "  O",
+    " 0 ",
+    "   "
+  ],
+  "result": {
+    "item": "queercraft:bonk_stick"
+  },
+  "show_notification": true
+}
