@@ -37,7 +37,8 @@ public class ModSpecialWeapons {
     public static final Item FRYING_PAN = registerSpecialWeapon("frying_pan",
             new FryingPanItem(ModToolMaterial.QUEER, 0, -3f,new FabricItemSettings()));
 
-
+    public static final Item BATTLE_AXE = registerSpecialWeapon("battle_axe",
+            new SwordItem(ModToolMaterial.QUEER, 7, -3f,new FabricItemSettings()));
 
 
 

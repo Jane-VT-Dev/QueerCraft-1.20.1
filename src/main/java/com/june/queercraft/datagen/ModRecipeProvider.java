@@ -266,6 +266,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.IRON_BLOCK),conditionsFromItem(Items.IRON_BLOCK))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModSpecialWeapons.BATTLE_AXE,1)
+                .pattern("I0I")
+                .pattern(" 0 ")
+                .pattern(" 0 ")
+
+                .input('I', Items.IRON_AXE)
+                .input('0', Items.STICK)
+
+                .criterion(hasItem(Items.IRON_AXE),conditionsFromItem(Items.IRON_AXE))
+                .offerTo(exporter);
+
 
 
     }

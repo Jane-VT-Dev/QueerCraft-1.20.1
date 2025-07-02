@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "minecraft:iron_axe"
+    }
+  },
+  "pattern": [
+    "I0I",
+    " 0 ",
+    " 0 "
+  ],
+  "result": {
+    "item": "queercraft:battle_axe"
+  },
+  "show_notification": true
+}

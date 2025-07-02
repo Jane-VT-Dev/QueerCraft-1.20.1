@@ -81,8 +81,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModSwords.PAN_SWORD)
                 .add(ModSwords.QUEER_SWORD)
                 .add(ModSwords.PAN_SWORD)
-                .add(ModSwords.TRANS_SWORD);
-
+                .add(ModSwords.TRANS_SWORD)
+                .add(ModSpecialWeapons.BATTLE_AXE);
 
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModAxes.AROACE_AXE)
@@ -94,7 +94,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModAxes.NONBINARY_AXE)
                 .add(ModAxes.PAN_AXE)
                 .add(ModAxes.QUEER_AXE)
-                .add(ModAxes.TRANS_AXE);
+                .add(ModAxes.TRANS_AXE)
+                .add(ModSpecialWeapons.BATTLE_AXE);
 
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModPickaxes.AROACE_PICKAXE)
@@ -130,7 +131,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModHoes.NONBINARY_HOE)
                 .add(ModHoes.PAN_HOE)
                 .add(ModHoes.QUEER_HOE)
-                .add(ModHoes.TRANS_HOE);
+                .add(ModHoes.TRANS_HOE)
+                .add(ModSpecialWeapons.SCYTHE);
 
         getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
                 .add(ModItems.QUEER_SMITHING_TEMPLATE);

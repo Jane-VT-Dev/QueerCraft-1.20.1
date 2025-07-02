@@ -152,6 +152,7 @@ public class ModItemGroups {
                         entries.add(ModSpecialWeapons.J_S_LANCE);
                         entries.add(ModSpecialWeapons.MAGIC_WAND);
                         entries.add(ModSpecialWeapons.FRYING_PAN);
+                        entries.add(ModSpecialWeapons.BATTLE_AXE);
 
                     }).build());
 
