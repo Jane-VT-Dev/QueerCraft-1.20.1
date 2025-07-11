@@ -188,12 +188,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModArmors.TRANS_BOOTS));
 
         itemModelGenerator.register(ModSpecialWeapons.BONK_STICK,Models.HANDHELD);
-        itemModelGenerator.register(ModSpecialWeapons.DAGGER,Models.HANDHELD);
         itemModelGenerator.register(ModSpecialWeapons.MAGIC_WAND,Models.HANDHELD);
         itemModelGenerator.register(ModSpecialWeapons.FRYING_PAN,Models.HANDHELD);
-        itemModelGenerator.register(ModSpecialWeapons.BATTLE_AXE,Models.HANDHELD);
 
-        itemModelGenerator.register(ModPickaxes.DRILL,Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.QUEER_SMITHING_TEMPLATE,Models.HANDHELD);
 

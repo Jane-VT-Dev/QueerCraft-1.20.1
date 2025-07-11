@@ -179,6 +179,7 @@
   "item.queercraft.magic_wand" : "Magic Wand",
   "item.queercraft.frying_pan" : "Frying Pan",
   "item.queercraft.drill" : "Drill",
+  "item.queercraft.battle_axe": "Battle Axe",
 
   "itemgroup.queercraft.smithing_template": "Ingredients",
   "upgrade.minecraft.queer_upgrade": "Queer Upgrade",

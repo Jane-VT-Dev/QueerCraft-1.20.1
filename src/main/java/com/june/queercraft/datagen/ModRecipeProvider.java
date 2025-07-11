@@ -208,7 +208,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.QUEER_SMITHING_TEMPLATE,1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.QUEER_SMITHING_TEMPLATE,2)
                 .pattern("DDD")
                 .pattern("DTD")
                 .pattern("DDD")
