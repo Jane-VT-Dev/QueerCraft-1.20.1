@@ -15,6 +15,12 @@ public class BonkStickItem extends Item {
 
         target.addVelocity(new Vec3d(target.getX() - attacker.getX(), 0.03, target.getZ() - attacker.getZ()).normalize().multiply(10f));
 
+        if (target.isPlayer()){
+
+            target.addVelocity(new Vec3d(target.getX() - attacker.getX(), 0.03, target.getZ() - attacker.getZ()).normalize().multiply(15f));
+
+        }
+
         return super.postHit(stack, target, attacker);
 
 
