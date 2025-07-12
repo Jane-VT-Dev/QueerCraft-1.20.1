@@ -30,7 +30,7 @@ public class LanceItem extends Item {
                     user.useRiptide(50);
                     user.setVelocity(0, 4, 0);
 
-                    user.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 90, 10, false, false, false));
+                    user.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 90, 4, false, false, false));
                     user.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 100, 10, false, false, false));
 
                     user.damage(user.getDamageSources().generic(), 2);

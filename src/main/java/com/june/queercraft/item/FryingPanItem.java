@@ -1,6 +1,7 @@
 package com.june.queercraft.item;
 
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.MovementType;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
@@ -18,6 +19,11 @@ public class FryingPanItem extends SwordItem {
 
         target.addVelocity(new Vec3d(target.getX() - attacker.getX(), 0.03, target.getZ() - attacker.getZ()).normalize().multiply(1f));
 
+        if (target.isPlayer()){
+
+            target.move(MovementType.PLAYER,new Vec3d(target.getX() - attacker.getX(), 0.03, target.getZ() - attacker.getZ()).normalize().multiply(1f));
+
+        }
         return super.postHit(stack, target, attacker);
 
 

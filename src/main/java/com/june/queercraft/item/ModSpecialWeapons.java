@@ -3,6 +3,7 @@ package com.june.queercraft.item;
 import com.june.queercraft.QueerCraft;
 import com.june.queercraft.item.materials.ModToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
@@ -13,7 +14,7 @@ import net.minecraft.util.Rarity;
 public class ModSpecialWeapons {
 
     public static final Item SCYTHE = registerSpecialWeapon("scythe",
-            new SwordItem(ModToolMaterial.QUEER, 12, -3.7f,new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.QUEER, 10, -3.4f,new FabricItemSettings()));
 
     public static final Item BONK_STICK = registerSpecialWeapon("bonk_stick",
             new BonkStickItem(new FabricItemSettings().maxCount(1)));
@@ -38,7 +39,7 @@ public class ModSpecialWeapons {
             new FryingPanItem(ModToolMaterial.QUEER, 0, -3f,new FabricItemSettings()));
 
     public static final Item BATTLE_AXE = registerSpecialWeapon("battle_axe",
-            new SwordItem(ModToolMaterial.QUEER, 7, -3f,new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.BI,8,-3f,new FabricItemSettings()));
 
 
 

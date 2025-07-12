@@ -47,7 +47,7 @@
   "item.queercraft.trans_pickaxe": "Trans Pickaxe",
 
   "item.queercraft.aroace_axe": "Aroace Axe",
-  "item.queercraft.bi_axe": "Bi Pickaxe",
+  "item.queercraft.bi_axe": "Bi Axe",
   "item.queercraft.demigender_axe": "Demigender Axe",
   "item.queercraft.genderfluid_axe": "Genderfluid Axe",
   "item.queercraft.lesbian_axe": "Lesbian Axe",
@@ -179,7 +179,7 @@
   "item.queercraft.magic_wand" : "Magic Wand",
   "item.queercraft.frying_pan" : "Frying Pan",
   "item.queercraft.drill" : "Drill",
-  "item.queercraft.battle_axe": "Battle Axe",
+  "item.queercraft.battle_axe": "Bi Battle Axe",
 
   "itemgroup.queercraft.smithing_template": "Ingredients",
   "upgrade.minecraft.queer_upgrade": "Queer Upgrade",

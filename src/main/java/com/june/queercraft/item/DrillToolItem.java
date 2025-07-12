@@ -5,9 +5,11 @@ import net.minecraft.block.Blocks;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -28,8 +30,8 @@ public class DrillToolItem extends Item {
     }
 
     @Override
-    public boolean isSuitableFor(BlockState state) {return
-
+    public boolean isSuitableFor(BlockState state) {
+        return
             state.isOf(Blocks.STONE) ||
                         state.isOf(Blocks.DIRT) ||
                         state.isOf(Blocks.SAND) ||
@@ -48,13 +50,11 @@ public class DrillToolItem extends Item {
 
     }
 
-
     @Override
     public boolean postMine(ItemStack stack, World world, BlockState state, BlockPos pos, LivingEntity miner) {
         if (!world.isClient && state.getHardness(world, pos) != 0.0F) {
             stack.damage(1, miner, e -> e.sendEquipmentBreakStatus(EquipmentSlot.MAINHAND));
         }
-
         return true;
     }
 
@@ -67,5 +67,7 @@ public class DrillToolItem extends Item {
 
         super.appendTooltip(stack, world, tooltip, context);
     }
+
+
 
 }
