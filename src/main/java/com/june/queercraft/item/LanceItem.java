@@ -1,11 +1,13 @@
 package com.june.queercraft.item;
 
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.Vec3d;
@@ -64,7 +66,7 @@ public class LanceItem extends Item {
 
         target.addVelocity(new Vec3d(target.getX() - attacker.getX(), 0.03, target.getZ() - attacker.getZ()).normalize().multiply(1.2f));
         attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 10, 3, false, false, false));
-
+        stack.damage(1,attacker, Entity::attemptTickInVoid);
         return super.postHit(stack, target, attacker);
     }
 }

@@ -1,4 +1,4 @@
-// 1.20.1	2025-07-11T13:41:33.752489	QueerCraft/Recipes
+// 1.20.1	2025-07-13T14:57:52.0563547	QueerCraft/Recipes
 c473cb369988fea9c67863d95596823b49149b13 data\queercraft\recipes\pan_ingot.json
 cd4a1c21897cab92dc5e04b5e45a54f4e0a85fd3 data\queercraft\recipes\light_gray_block.json
 b9ba82d19d4a3e6b926e055ecc724dab4aa07d3d data\queercraft\recipes\lime_block.json
@@ -30,8 +30,8 @@ c996e7ac4ea944231310df0e716808915f3562f6 data\queercraft\recipes\purple_ingot.js
 8eef6bc5aee9cbf81e9deb6c7a9702ade77af94b data\queercraft\recipes\green_ingot.json
 70342553d434425e45148396750b08d87777ca3f data\queercraft\recipes\light_blue_block.json
 c92bb76e2aee0d5eb3a8433cb27641d73ae35a8d data\queercraft\recipes\yellow_block.json
-81135bbc58a52fa3c9ffb3cd752b4aa857beecfd data\queercraft\advancements\recipes\misc\lesbian_ingot.json
 e0dd7d9fa4cc477b4d7ff864ed4359262cd09e71 data\queercraft\advancements\recipes\misc\pan_ingot.json
+81135bbc58a52fa3c9ffb3cd752b4aa857beecfd data\queercraft\advancements\recipes\misc\lesbian_ingot.json
 1d064182fe60812ecdfc97934216e62e836735b2 data\queercraft\advancements\recipes\misc\trans_ingot.json
 555d2ef89268f637f77aac85f4e8c3d01d1a28af data\queercraft\recipes\cyan_block.json
 957cd12a2fee73e39d1346eee895ee812c9eac37 data\queercraft\recipes\lime_ingot.json
@@ -92,8 +92,8 @@ e49e675fe4bb46d0dba7ecdcab04264ad1dee40e data\queercraft\recipes\light_gray_ingo
 4284f16ffedc1b796f965ec841876c706a511866 data\queercraft\advancements\recipes\decorations\cyan_block.json
 29ae72f882f3da41ee688a1c621abe3dff0e485b data\queercraft\recipes\lesbian_ingot.json
 665294812e77a21022e80a535eca034a8c275baf data\queercraft\advancements\recipes\decorations\white_block.json
-7bea5b347974fe0ccf93eef45faeaf36b8fcecd0 data\queercraft\advancements\recipes\building_blocks\lime_ingot.json
 39b1e1a183502c93c090b105dd1a5f1a28f813bf data\queercraft\recipes\red_block.json
+7bea5b347974fe0ccf93eef45faeaf36b8fcecd0 data\queercraft\advancements\recipes\building_blocks\lime_ingot.json
 e926cd61b1e94dfb50b2471d09dc67c835e07325 data\queercraft\advancements\recipes\misc\bi_ingot.json
 f0180584828180419ff990a606959d4bae0b91b0 data\queercraft\advancements\recipes\building_blocks\orange_ingot.json
 9995920a530cb35aff080e18f68e02397d64ba17 data\queercraft\advancements\recipes\building_blocks\brown_ingot.json

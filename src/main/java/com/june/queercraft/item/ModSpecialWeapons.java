@@ -14,7 +14,7 @@ import net.minecraft.util.Rarity;
 public class ModSpecialWeapons {
 
     public static final Item SCYTHE = registerSpecialWeapon("scythe",
-            new SwordItem(ModToolMaterial.QUEER, 10, -3.4f,new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.QUEER, 10, -3.4f,new FabricItemSettings().maxDamage(4000)));
 
     public static final Item BONK_STICK = registerSpecialWeapon("bonk_stick",
             new BonkStickItem(new FabricItemSettings().maxCount(1)));
@@ -28,7 +28,7 @@ public class ModSpecialWeapons {
 
 
     public static final Item LANCE = registerSpecialWeapon("lance",
-            new LanceItem(new FabricItemSettings().maxCount(1).rarity(Rarity.COMMON)));
+            new LanceItem(new FabricItemSettings().rarity(Rarity.COMMON).maxDamage(3000)));
 
 
     public static final Item MAGIC_WAND = registerSpecialWeapon("magic_wand",
@@ -36,10 +36,10 @@ public class ModSpecialWeapons {
 
 
     public static final Item FRYING_PAN = registerSpecialWeapon("frying_pan",
-            new FryingPanItem(ModToolMaterial.QUEER, 0, -3f,new FabricItemSettings()));
+            new FryingPanItem(ModToolMaterial.QUEER, 0, -3f,new FabricItemSettings().maxDamage(3000)));
 
     public static final Item BATTLE_AXE = registerSpecialWeapon("battle_axe",
-            new AxeItem(ModToolMaterial.BI,8,-3f,new FabricItemSettings()));
+            new AxeItem(ModToolMaterial.BI,8,-3f,new FabricItemSettings().maxDamage(3000)));
 
 
 

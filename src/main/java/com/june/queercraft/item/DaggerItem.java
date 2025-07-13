@@ -27,7 +27,7 @@ public class DaggerItem extends SwordItem {
         if (!user.getItemCooldownManager().isCoolingDown(ModSpecialWeapons.DAGGER)){
             user.attack(entity);
             entity.damage(user.getDamageSources().generic(),getAttackDamage()*2);
-            user.getItemCooldownManager().set(ModSpecialWeapons.DAGGER,30);
+            user.getItemCooldownManager().set(ModSpecialWeapons.DAGGER,80);
             
         }
 
