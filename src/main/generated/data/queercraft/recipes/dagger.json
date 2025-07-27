@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "0": {
+      "item": "minecraft:shears"
+    },
+    "I": {
+      "item": "queercraft:demigender_sword"
+    },
+    "a": {
+      "item": "queercraft:demigender_ingot"
+    }
+  },
+  "pattern": [
+    "a0a",
+    "aIa",
+    "aaa"
+  ],
+  "result": {
+    "item": "queercraft:dagger"
+  },
+  "show_notification": true
+}
