@@ -195,19 +195,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         //================================================================================
 
 
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSpecialWeapons.SCYTHE,1)
-                .pattern(" 0 ")
-                .pattern("OS ")
-                .pattern(" S ")
-                .input('O', ModItems.TRANS_INGOT)
-                .input('0', Items.NETHERITE_SWORD)
-                .input('S',Items.STICK)
-                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
-                .offerTo(exporter);
-
-
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.QUEER_SMITHING_TEMPLATE,2)
                 .pattern("DDD")
                 .pattern("DTD")
@@ -221,60 +208,75 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSpecialWeapons.MAGIC_WAND,1)
-                .pattern("  O")
-                .pattern(" 0 ")
-                .pattern("S  ")
-                .input('O', ModItems.TRANS_INGOT)
-                .input('0', Items.TRIDENT)
-                .input('S',Items.NETHER_STAR)
+                .pattern("111")
+                .pattern("1S1")
+                .pattern("111")
+                .input('1', ModItems.TRANS_INGOT)
+                .input('S', Items.STICK)
 
-                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .criterion(hasItem(ModItems.TRANS_INGOT),conditionsFromItem(ModItems.TRANS_INGOT))
                 .offerTo(exporter);
 
         
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSpecialWeapons.BONK_STICK,1)
-                .pattern("  O")
-                .pattern(" 0 ")
-                .pattern("   ")
-                .input('O', ModItems.BROWN_INGOT)
-                .input('0', Items.STICK)
+                .pattern(" A ")
+                .pattern("ASA")
+                .pattern(" A ")
+                .input('A', ModItems.MLM_INGOT)
+                .input('S', Items.STICK)
 
-                .criterion(hasItem(ModItems.BROWN_INGOT),conditionsFromItem(ModItems.BROWN_INGOT))
+                .criterion(hasItem(ModItems.MLM_INGOT),conditionsFromItem(ModItems.MLM_INGOT))
                 .offerTo(exporter);
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModSpecialWeapons.FRYING_PAN,1)
-                .pattern("  O")
-                .pattern(" 0 ")
-                .pattern("   ")
-                .input('O', Items.IRON_BLOCK)
-                .input('0', Items.STICK)
+                .pattern(" O ")
+                .pattern("O0O")
+                .pattern(" O ")
+                .input('O', ModItems.PAN_INGOT)
+                .input('0', ModShovels.PAN_SHOVEL)
 
-                .criterion(hasItem(Items.IRON_BLOCK),conditionsFromItem(Items.IRON_BLOCK))
+                .criterion(hasItem(ModShovels.PAN_SHOVEL),conditionsFromItem(ModShovels.PAN_SHOVEL))
                 .offerTo(exporter);
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModPickaxes.DRILL,1)
-                .pattern("  O")
-                .pattern(" 0 ")
-                .pattern("I  ")
-                .input('O', Items.IRON_BLOCK)
-                .input('I', Items.IRON_PICKAXE)
-                .input('0', Items.STICK)
+                .pattern("IRI")
+                .pattern("SGA")
+                .pattern("IRI")
+                .input('R', Items.REDSTONE)
+                .input('S', Items.DIAMOND_SHOVEL)
+                .input('A', Items.DIAMOND_AXE)
+                .input('G',ModPickaxes.GENDERFLUID_PICKAXE)
+                .input('I',ModItems.GENDERFLUID_INGOT)
+
 
                 .criterion(hasItem(Items.IRON_BLOCK),conditionsFromItem(Items.IRON_BLOCK))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModSpecialWeapons.BATTLE_AXE,1)
-                .pattern("I0I")
-                .pattern(" 0 ")
+                .pattern("IaI")
+                .pattern("a0a")
                 .pattern(" 0 ")
 
                 .input('I', Items.IRON_AXE)
                 .input('0', Items.STICK)
+                .input('a', ModItems.BI_INGOT)
 
                 .criterion(hasItem(Items.IRON_AXE),conditionsFromItem(Items.IRON_AXE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT,ModSpecialWeapons.DAGGER,1)
+                .pattern("a0a")
+                .pattern("aIa")
+                .pattern("aaa")
+
+                .input('I', ModSwords.DEMIGENDER_SWORD)
+                .input('0', Items.SHEARS)
+                .input('a', ModItems.DEMIGENDER_INGOT)
+
+                .criterion(hasItem(ModItems.DEMIGENDER_INGOT),conditionsFromItem(ModItems.DEMIGENDER_INGOT))
                 .offerTo(exporter);
 
 

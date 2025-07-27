@@ -2,20 +2,26 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "0": {
-      "item": "minecraft:stick"
+    "A": {
+      "item": "minecraft:diamond_axe"
+    },
+    "G": {
+      "item": "queercraft:genderfluid_pickaxe"
     },
     "I": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "queercraft:genderfluid_ingot"
     },
-    "O": {
-      "item": "minecraft:iron_block"
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "minecraft:diamond_shovel"
     }
   },
   "pattern": [
-    "  O",
-    " 0 ",
-    "I  "
+    "IRI",
+    "SGA",
+    "IRI"
   ],
   "result": {
     "item": "queercraft:drill"

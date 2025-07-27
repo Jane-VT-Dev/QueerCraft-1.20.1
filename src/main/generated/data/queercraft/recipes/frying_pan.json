@@ -3,16 +3,16 @@
   "category": "equipment",
   "key": {
     "0": {
-      "item": "minecraft:stick"
+      "item": "queercraft:pan_shovel"
     },
     "O": {
-      "item": "minecraft:iron_block"
+      "item": "queercraft:pan_ingot"
     }
   },
   "pattern": [
-    "  O",
-    " 0 ",
-    "   "
+    " O ",
+    "O0O",
+    " O "
   ],
   "result": {
     "item": "queercraft:frying_pan"

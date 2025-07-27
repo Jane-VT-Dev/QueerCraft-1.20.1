@@ -43,6 +43,13 @@ Ingot numbers:
  - white = P
  - yellow = Q
 
-mlm armor set effect villager cheaper prices
-
-.setVelocity(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0F, f * 9.0F, 1.0F);
+aroace
+bi
+demigender
+genderfluid
+lesbian
+mlm
+nonbinary
+pan
+trans
+queer

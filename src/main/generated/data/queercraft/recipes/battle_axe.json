@@ -7,11 +7,14 @@
     },
     "I": {
       "item": "minecraft:iron_axe"
+    },
+    "a": {
+      "item": "queercraft:bi_ingot"
     }
   },
   "pattern": [
-    "I0I",
-    " 0 ",
+    "IaI",
+    "a0a",
     " 0 "
   ],
   "result": {

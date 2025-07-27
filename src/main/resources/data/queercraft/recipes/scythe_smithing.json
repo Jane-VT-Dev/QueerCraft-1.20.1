@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "queercraft:queer_hoe"
+  },
+  "base": {
+    "item": "queercraft:queer_sword"
+  },
+  "result": {
+    "item": "queercraft:scythe"
+  },
+  "template": {
+    "item": "queercraft:queer_smithing_template"
+  }
+}

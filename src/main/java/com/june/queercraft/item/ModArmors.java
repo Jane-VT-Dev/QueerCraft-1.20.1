@@ -13,7 +13,7 @@ public class ModArmors {
 
 
     public static final Item AROACE_HELMET = registerArmor("aroace_helmet",
-            new ArmorItem(ModArmorMaterials.AROACE, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
+            new ModArmorItemEff(ModArmorMaterials.AROACE, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
 
     public static final Item AROACE_CHESTPLATE = registerArmor("aroace_chestplate",
             new ArmorItem(ModArmorMaterials.AROACE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxDamage(650)));
@@ -25,7 +25,7 @@ public class ModArmors {
             new ArmorItem(ModArmorMaterials.AROACE, ArmorItem.Type.BOOTS, new FabricItemSettings().maxDamage(550)));
 
     public static final Item BI_HELMET = registerArmor("bi_helmet",
-            new ArmorItem(ModArmorMaterials.BI, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
+            new ModArmorItemEff(ModArmorMaterials.BI, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
 
     public static final Item BI_CHESTPLATE = registerArmor("bi_chestplate",
             new ArmorItem(ModArmorMaterials.BI, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxDamage(650)));
@@ -37,7 +37,7 @@ public class ModArmors {
             new ArmorItem(ModArmorMaterials.BI, ArmorItem.Type.BOOTS, new FabricItemSettings().maxDamage(550)));
 
     public static final Item DEMIGENDER_HELMET = registerArmor("demigender_helmet",
-            new ArmorItem(ModArmorMaterials.DEMIGENDER, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
+            new ModArmorItemEff(ModArmorMaterials.DEMIGENDER, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
 
     public static final Item DEMIGENDER_CHESTPLATE = registerArmor("demigender_chestplate",
             new ArmorItem(ModArmorMaterials.DEMIGENDER, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxDamage(650)));
@@ -49,7 +49,7 @@ public class ModArmors {
             new ArmorItem(ModArmorMaterials.DEMIGENDER, ArmorItem.Type.BOOTS, new FabricItemSettings().maxDamage(550)));
 
     public static final Item GENDERFLUID_HELMET = registerArmor("genderfluid_helmet",
-            new ArmorItem(ModArmorMaterials.GENDERFLUID, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
+            new ModArmorItemEff(ModArmorMaterials.GENDERFLUID, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
 
     public static final Item GENDERFLUID_CHESTPLATE = registerArmor("genderfluid_chestplate",
             new ArmorItem(ModArmorMaterials.GENDERFLUID, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxDamage(650)));
@@ -61,7 +61,7 @@ public class ModArmors {
             new ArmorItem(ModArmorMaterials.GENDERFLUID, ArmorItem.Type.BOOTS, new FabricItemSettings().maxDamage(550)));
 
     public static final Item LESBIAN_HELMET = registerArmor("lesbian_helmet",
-            new ArmorItem(ModArmorMaterials.LESBIAN, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
+            new ModArmorItemEff(ModArmorMaterials.LESBIAN, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
 
     public static final Item LESBIAN_CHESTPLATE = registerArmor("lesbian_chestplate",
             new ArmorItem(ModArmorMaterials.LESBIAN, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxDamage(650)));
@@ -73,7 +73,7 @@ public class ModArmors {
             new ArmorItem(ModArmorMaterials.LESBIAN, ArmorItem.Type.BOOTS, new FabricItemSettings().maxDamage(550)));
 
     public static final Item MLM_HELMET = registerArmor("mlm_helmet",
-            new ArmorItem(ModArmorMaterials.MLM, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
+            new ModArmorItemEff(ModArmorMaterials.MLM, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
 
     public static final Item MLM_CHESTPLATE = registerArmor("mlm_chestplate",
             new ArmorItem(ModArmorMaterials.MLM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxDamage(650)));
@@ -85,7 +85,7 @@ public class ModArmors {
             new ArmorItem(ModArmorMaterials.MLM, ArmorItem.Type.BOOTS, new FabricItemSettings().maxDamage(550)));
 
     public static final Item NONBINARY_HELMET = registerArmor("nonbinary_helmet",
-            new ArmorItem(ModArmorMaterials.NONBINARY, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
+            new ModArmorItemEff(ModArmorMaterials.NONBINARY, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
 
     public static final Item NONBINARY_CHESTPLATE = registerArmor("nonbinary_chestplate",
             new ArmorItem(ModArmorMaterials.NONBINARY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxDamage(650)));
@@ -97,7 +97,7 @@ public class ModArmors {
             new ArmorItem(ModArmorMaterials.NONBINARY, ArmorItem.Type.BOOTS, new FabricItemSettings().maxDamage(550)));
 
     public static final Item PAN_HELMET = registerArmor("pan_helmet",
-            new ArmorItem(ModArmorMaterials.PAN, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
+            new ModArmorItemEff(ModArmorMaterials.PAN, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
 
     public static final Item PAN_CHESTPLATE = registerArmor("pan_chestplate",
             new ArmorItem(ModArmorMaterials.PAN, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxDamage(650)));
@@ -109,7 +109,7 @@ public class ModArmors {
             new ArmorItem(ModArmorMaterials.PAN, ArmorItem.Type.BOOTS, new FabricItemSettings().maxDamage(550)));
 
     public static final Item QUEER_HELMET = registerArmor("queer_helmet",
-            new ArmorItem(ModArmorMaterials.QUEER, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(600)));
+            new ModArmorItemEff(ModArmorMaterials.QUEER, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(600)));
 
     public static final Item QUEER_CHESTPLATE = registerArmor("queer_chestplate",
             new ArmorItem(ModArmorMaterials.QUEER, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxDamage(750)));
@@ -121,7 +121,7 @@ public class ModArmors {
             new ArmorItem(ModArmorMaterials.QUEER, ArmorItem.Type.BOOTS, new FabricItemSettings().maxDamage(650)));
 
     public static final Item TRANS_HELMET = registerArmor("trans_helmet",
-            new ArmorItem(ModArmorMaterials.TRANS, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
+            new ModArmorItemEff(ModArmorMaterials.TRANS, ArmorItem.Type.HELMET, new FabricItemSettings().maxDamage(500)));
 
     public static final Item TRANS_CHESTPLATE = registerArmor("trans_chestplate",
             new ArmorItem(ModArmorMaterials.TRANS, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().maxDamage(650)));

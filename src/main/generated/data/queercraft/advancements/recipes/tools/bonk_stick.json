@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_brown_ingot": {
+    "has_mlm_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "queercraft:brown_ingot"
+              "queercraft:mlm_ingot"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_brown_ingot",
+      "has_mlm_ingot",
       "has_the_recipe"
     ]
   ],
